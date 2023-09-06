@@ -1,0 +1,877 @@
+[0.372s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.372s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fe8459e58d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fe8460dabf0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fe8460dabf0>>)
+[0.409s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.409s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.409s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.409s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.409s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.409s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.410s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/erdem/control_ws'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/Dockerfile) by extensions ['ignore', 'ignore_ament_install']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/Dockerfile) by extension 'ignore'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/Dockerfile) by extension 'ignore_ament_install'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/Dockerfile) by extensions ['colcon_pkg']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/Dockerfile) by extension 'colcon_pkg'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/Dockerfile) by extensions ['colcon_meta']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/Dockerfile) by extension 'colcon_meta'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/Dockerfile) by extensions ['ros']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/Dockerfile) by extension 'ros'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/Dockerfile) by extensions ['cmake', 'python']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/Dockerfile) by extension 'cmake'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/Dockerfile) by extension 'python'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/Dockerfile) by extensions ['python_setup_py']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/Dockerfile) by extension 'python_setup_py'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/doc) by extensions ['ignore', 'ignore_ament_install']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/doc) by extension 'ignore'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/doc) by extension 'ignore_ament_install'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/doc) by extensions ['colcon_pkg']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/doc) by extension 'colcon_pkg'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/doc) by extensions ['colcon_meta']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/doc) by extension 'colcon_meta'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/doc) by extensions ['ros']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/doc) by extension 'ros'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/doc) by extensions ['cmake', 'python']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/doc) by extension 'cmake'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/doc) by extension 'python'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/doc) by extensions ['python_setup_py']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/doc) by extension 'python_setup_py'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_1) by extensions ['ignore', 'ignore_ament_install']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_1) by extension 'ignore'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_1) by extension 'ignore_ament_install'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_1) by extensions ['colcon_pkg']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_1) by extension 'colcon_pkg'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_1) by extensions ['colcon_meta']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_1) by extension 'colcon_meta'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_1) by extensions ['ros']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_1) by extension 'ros'
+[0.432s] DEBUG:colcon.colcon_core.package_identification:Package 'src/example_1' with type 'ros.ament_cmake' and name 'ros2_control_demo_example_1'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_2) by extensions ['ignore', 'ignore_ament_install']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_2) by extension 'ignore'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_2) by extension 'ignore_ament_install'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_2) by extensions ['colcon_pkg']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_2) by extension 'colcon_pkg'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_2) by extensions ['colcon_meta']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_2) by extension 'colcon_meta'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_2) by extensions ['ros']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_2) by extension 'ros'
+[0.433s] DEBUG:colcon.colcon_core.package_identification:Package 'src/example_2' with type 'ros.ament_cmake' and name 'ros2_control_demo_example_2'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_3) by extensions ['ignore', 'ignore_ament_install']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_3) by extension 'ignore'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_3) by extension 'ignore_ament_install'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_3) by extensions ['colcon_pkg']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_3) by extension 'colcon_pkg'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_3) by extensions ['colcon_meta']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_3) by extension 'colcon_meta'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_3) by extensions ['ros']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_3) by extension 'ros'
+[0.435s] DEBUG:colcon.colcon_core.package_identification:Package 'src/example_3' with type 'ros.ament_cmake' and name 'ros2_control_demo_example_3'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_4) by extensions ['ignore', 'ignore_ament_install']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_4) by extension 'ignore'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_4) by extension 'ignore_ament_install'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_4) by extensions ['colcon_pkg']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_4) by extension 'colcon_pkg'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_4) by extensions ['colcon_meta']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_4) by extension 'colcon_meta'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_4) by extensions ['ros']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_4) by extension 'ros'
+[0.437s] DEBUG:colcon.colcon_core.package_identification:Package 'src/example_4' with type 'ros.ament_cmake' and name 'ros2_control_demo_example_4'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_5) by extensions ['ignore', 'ignore_ament_install']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_5) by extension 'ignore'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_5) by extension 'ignore_ament_install'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_5) by extensions ['colcon_pkg']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_5) by extension 'colcon_pkg'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_5) by extensions ['colcon_meta']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_5) by extension 'colcon_meta'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_5) by extensions ['ros']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_5) by extension 'ros'
+[0.439s] DEBUG:colcon.colcon_core.package_identification:Package 'src/example_5' with type 'ros.ament_cmake' and name 'ros2_control_demo_example_5'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_6) by extensions ['ignore', 'ignore_ament_install']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_6) by extension 'ignore'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_6) by extension 'ignore_ament_install'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_6) by extensions ['colcon_pkg']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_6) by extension 'colcon_pkg'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_6) by extensions ['colcon_meta']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_6) by extension 'colcon_meta'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_6) by extensions ['ros']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_6) by extension 'ros'
+[0.440s] DEBUG:colcon.colcon_core.package_identification:Package 'src/example_6' with type 'ros.ament_cmake' and name 'ros2_control_demo_example_6'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_7) by extensions ['ignore', 'ignore_ament_install']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_7) by extension 'ignore'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_7) by extension 'ignore_ament_install'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_7) by extensions ['colcon_pkg']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_7) by extension 'colcon_pkg'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_7) by extensions ['colcon_meta']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_7) by extension 'colcon_meta'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_7) by extensions ['ros']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_7) by extension 'ros'
+[0.443s] DEBUG:colcon.colcon_core.package_identification:Package 'src/example_7' with type 'ros.ament_cmake' and name 'ros2_control_demo_example_7'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_8) by extensions ['ignore', 'ignore_ament_install']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_8) by extension 'ignore'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_8) by extension 'ignore_ament_install'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_8) by extensions ['colcon_pkg']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_8) by extension 'colcon_pkg'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_8) by extensions ['colcon_meta']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_8) by extension 'colcon_meta'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_8) by extensions ['ros']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_8) by extension 'ros'
+[0.445s] DEBUG:colcon.colcon_core.package_identification:Package 'src/example_8' with type 'ros.ament_cmake' and name 'ros2_control_demo_example_8'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_9) by extensions ['ignore', 'ignore_ament_install']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_9) by extension 'ignore'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_9) by extension 'ignore_ament_install'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_9) by extensions ['colcon_pkg']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_9) by extension 'colcon_pkg'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_9) by extensions ['colcon_meta']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_9) by extension 'colcon_meta'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_9) by extensions ['ros']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_9) by extension 'ros'
+[0.446s] DEBUG:colcon.colcon_core.package_identification:Package 'src/example_9' with type 'ros.ament_cmake' and name 'ros2_control_demo_example_9'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extensions ['ignore', 'ignore_ament_install']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extension 'ignore'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extension 'ignore_ament_install'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extensions ['colcon_pkg']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extension 'colcon_pkg'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extensions ['colcon_meta']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extension 'colcon_meta'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extensions ['ros']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extension 'ros'
+[0.448s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_control_demo_description' with type 'ros.ament_cmake' and name 'ros2_control_demo_description'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos) by extensions ['ignore', 'ignore_ament_install']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos) by extension 'ignore'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos) by extension 'ignore_ament_install'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos) by extensions ['colcon_pkg']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos) by extension 'colcon_pkg'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos) by extensions ['colcon_meta']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos) by extension 'colcon_meta'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos) by extensions ['ros']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos) by extension 'ros'
+[0.451s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_control_demos' with type 'ros.ament_cmake' and name 'ros2_control_demos'
+[0.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.496s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.497s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.501s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 11 installed packages in /home/erdem/control_ws/install
+[0.504s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 319 installed packages in /opt/ros/humble
+[0.506s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'cmake_args' from command line to 'None'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'cmake_target' from command line to 'None'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.585s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_control_demo_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/erdem/control_ws/build/ros2_control_demo_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/erdem/control_ws/install/ros2_control_demo_description', 'merge_install': False, 'path': '/home/erdem/control_ws/src/ros2_control_demo_description', 'symlink_install': True, 'test_result_base': None}
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_1' build argument 'cmake_args' from command line to 'None'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_1' build argument 'cmake_target' from command line to 'None'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_1' build argument 'cmake_clean_first' from command line to 'False'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_1' build argument 'cmake_force_configure' from command line to 'False'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_1' build argument 'ament_cmake_args' from command line to 'None'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.587s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_control_demo_example_1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/erdem/control_ws/build/ros2_control_demo_example_1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/erdem/control_ws/install/ros2_control_demo_example_1', 'merge_install': False, 'path': '/home/erdem/control_ws/src/example_1', 'symlink_install': True, 'test_result_base': None}
+[0.588s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_2' build argument 'cmake_args' from command line to 'None'
+[0.588s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_2' build argument 'cmake_target' from command line to 'None'
+[0.588s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.588s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.588s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_2' build argument 'cmake_clean_first' from command line to 'False'
+[0.588s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_2' build argument 'cmake_force_configure' from command line to 'False'
+[0.588s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_2' build argument 'ament_cmake_args' from command line to 'None'
+[0.588s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.588s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.588s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_control_demo_example_2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/erdem/control_ws/build/ros2_control_demo_example_2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/erdem/control_ws/install/ros2_control_demo_example_2', 'merge_install': False, 'path': '/home/erdem/control_ws/src/example_2', 'symlink_install': True, 'test_result_base': None}
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_3' build argument 'cmake_args' from command line to 'None'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_3' build argument 'cmake_target' from command line to 'None'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_3' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_3' build argument 'cmake_clean_cache' from command line to 'False'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_3' build argument 'cmake_clean_first' from command line to 'False'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_3' build argument 'cmake_force_configure' from command line to 'False'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_3' build argument 'ament_cmake_args' from command line to 'None'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_3' build argument 'catkin_cmake_args' from command line to 'None'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_3' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.589s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_control_demo_example_3' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/erdem/control_ws/build/ros2_control_demo_example_3', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/erdem/control_ws/install/ros2_control_demo_example_3', 'merge_install': False, 'path': '/home/erdem/control_ws/src/example_3', 'symlink_install': True, 'test_result_base': None}
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_4' build argument 'cmake_args' from command line to 'None'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_4' build argument 'cmake_target' from command line to 'None'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_4' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_4' build argument 'cmake_clean_cache' from command line to 'False'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_4' build argument 'cmake_clean_first' from command line to 'False'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_4' build argument 'cmake_force_configure' from command line to 'False'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_4' build argument 'ament_cmake_args' from command line to 'None'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_4' build argument 'catkin_cmake_args' from command line to 'None'
+[0.591s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_4' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.591s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_control_demo_example_4' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/erdem/control_ws/build/ros2_control_demo_example_4', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/erdem/control_ws/install/ros2_control_demo_example_4', 'merge_install': False, 'path': '/home/erdem/control_ws/src/example_4', 'symlink_install': True, 'test_result_base': None}
+[0.592s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_5' build argument 'cmake_args' from command line to 'None'
+[0.592s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_5' build argument 'cmake_target' from command line to 'None'
+[0.592s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_5' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.592s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_5' build argument 'cmake_clean_cache' from command line to 'False'
+[0.592s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_5' build argument 'cmake_clean_first' from command line to 'False'
+[0.592s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_5' build argument 'cmake_force_configure' from command line to 'False'
+[0.592s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_5' build argument 'ament_cmake_args' from command line to 'None'
+[0.592s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_5' build argument 'catkin_cmake_args' from command line to 'None'
+[0.592s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_5' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.592s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_control_demo_example_5' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/erdem/control_ws/build/ros2_control_demo_example_5', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/erdem/control_ws/install/ros2_control_demo_example_5', 'merge_install': False, 'path': '/home/erdem/control_ws/src/example_5', 'symlink_install': True, 'test_result_base': None}
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_6' build argument 'cmake_args' from command line to 'None'
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_6' build argument 'cmake_target' from command line to 'None'
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_6' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_6' build argument 'cmake_clean_cache' from command line to 'False'
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_6' build argument 'cmake_clean_first' from command line to 'False'
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_6' build argument 'cmake_force_configure' from command line to 'False'
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_6' build argument 'ament_cmake_args' from command line to 'None'
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_6' build argument 'catkin_cmake_args' from command line to 'None'
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_6' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.593s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_control_demo_example_6' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/erdem/control_ws/build/ros2_control_demo_example_6', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/erdem/control_ws/install/ros2_control_demo_example_6', 'merge_install': False, 'path': '/home/erdem/control_ws/src/example_6', 'symlink_install': True, 'test_result_base': None}
+[0.594s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_7' build argument 'cmake_args' from command line to 'None'
+[0.594s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_7' build argument 'cmake_target' from command line to 'None'
+[0.594s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_7' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.594s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_7' build argument 'cmake_clean_cache' from command line to 'False'
+[0.594s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_7' build argument 'cmake_clean_first' from command line to 'False'
+[0.594s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_7' build argument 'cmake_force_configure' from command line to 'False'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_7' build argument 'ament_cmake_args' from command line to 'None'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_7' build argument 'catkin_cmake_args' from command line to 'None'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_7' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.595s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_control_demo_example_7' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/erdem/control_ws/build/ros2_control_demo_example_7', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/erdem/control_ws/install/ros2_control_demo_example_7', 'merge_install': False, 'path': '/home/erdem/control_ws/src/example_7', 'symlink_install': True, 'test_result_base': None}
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_8' build argument 'cmake_args' from command line to 'None'
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_8' build argument 'cmake_target' from command line to 'None'
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_8' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_8' build argument 'cmake_clean_cache' from command line to 'False'
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_8' build argument 'cmake_clean_first' from command line to 'False'
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_8' build argument 'cmake_force_configure' from command line to 'False'
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_8' build argument 'ament_cmake_args' from command line to 'None'
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_8' build argument 'catkin_cmake_args' from command line to 'None'
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_8' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.596s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_control_demo_example_8' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/erdem/control_ws/build/ros2_control_demo_example_8', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/erdem/control_ws/install/ros2_control_demo_example_8', 'merge_install': False, 'path': '/home/erdem/control_ws/src/example_8', 'symlink_install': True, 'test_result_base': None}
+[0.597s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_9' build argument 'cmake_args' from command line to 'None'
+[0.597s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_9' build argument 'cmake_target' from command line to 'None'
+[0.597s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_9' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.597s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_9' build argument 'cmake_clean_cache' from command line to 'False'
+[0.597s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_9' build argument 'cmake_clean_first' from command line to 'False'
+[0.597s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_9' build argument 'cmake_force_configure' from command line to 'False'
+[0.597s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_9' build argument 'ament_cmake_args' from command line to 'None'
+[0.597s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_9' build argument 'catkin_cmake_args' from command line to 'None'
+[0.597s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_example_9' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.597s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_control_demo_example_9' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/erdem/control_ws/build/ros2_control_demo_example_9', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/erdem/control_ws/install/ros2_control_demo_example_9', 'merge_install': False, 'path': '/home/erdem/control_ws/src/example_9', 'symlink_install': True, 'test_result_base': None}
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demos' build argument 'cmake_args' from command line to 'None'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demos' build argument 'cmake_target' from command line to 'None'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.599s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demos' build argument 'cmake_clean_cache' from command line to 'False'
+[0.599s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demos' build argument 'cmake_clean_first' from command line to 'False'
+[0.599s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demos' build argument 'cmake_force_configure' from command line to 'False'
+[0.599s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demos' build argument 'ament_cmake_args' from command line to 'None'
+[0.599s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demos' build argument 'catkin_cmake_args' from command line to 'None'
+[0.599s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.599s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_control_demos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/erdem/control_ws/build/ros2_control_demos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/erdem/control_ws/install/ros2_control_demos', 'merge_install': False, 'path': '/home/erdem/control_ws/src/ros2_control_demos', 'symlink_install': True, 'test_result_base': None}
+[0.600s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.603s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.603s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/erdem/control_ws/src/ros2_control_demo_description' with build type 'ament_cmake'
+[0.604s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/erdem/control_ws/src/ros2_control_demo_description'
+[0.610s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.611s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.611s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.626s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erdem/control_ws/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/erdem/control_ws/build/ros2_control_demo_description -- -j4 -l4
+[0.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erdem/control_ws/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/erdem/control_ws/build/ros2_control_demo_description -- -j4 -l4
+[0.719s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erdem/control_ws/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/erdem/control_ws/build/ros2_control_demo_description
+[0.759s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_demo_description)
+[0.760s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erdem/control_ws/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/erdem/control_ws/build/ros2_control_demo_description
+[0.767s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_description' for CMake module files
+[0.768s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_description' for CMake config files
+[0.769s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_description', 'cmake_prefix_path')
+[0.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/hook/cmake_prefix_path.ps1'
+[0.772s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erdem/control_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/hook/cmake_prefix_path.dsv'
+[0.773s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/hook/cmake_prefix_path.sh'
+[0.775s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_description/bin'
+[0.775s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_description/lib/pkgconfig/ros2_control_demo_description.pc'
+[0.776s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_description/lib/python3.10/site-packages'
+[0.776s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_description/bin'
+[0.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.ps1'
+[0.780s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erdem/control_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.dsv'
+[0.781s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.sh'
+[0.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.bash'
+[0.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.zsh'
+[0.785s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erdem/control_ws/install/ros2_control_demo_description/share/colcon-core/packages/ros2_control_demo_description)
+[0.818s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_demo_description)
+[0.820s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_description' for CMake module files
+[0.821s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_description' for CMake config files
+[0.822s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_description', 'cmake_prefix_path')
+[0.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/hook/cmake_prefix_path.ps1'
+[0.824s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erdem/control_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/hook/cmake_prefix_path.dsv'
+[0.824s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/hook/cmake_prefix_path.sh'
+[0.824s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_description/bin'
+[0.825s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_description/lib/pkgconfig/ros2_control_demo_description.pc'
+[0.825s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_description/lib/python3.10/site-packages'
+[0.825s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_description/bin'
+[0.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.ps1'
+[0.827s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erdem/control_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.dsv'
+[0.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.sh'
+[0.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.bash'
+[0.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.zsh'
+[0.831s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erdem/control_ws/install/ros2_control_demo_description/share/colcon-core/packages/ros2_control_demo_description)
+[0.831s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/erdem/control_ws/src/example_1' with build type 'ament_cmake'
+[0.832s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/erdem/control_ws/src/example_1'
+[0.834s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.834s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.844s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/erdem/control_ws/src/example_2' with build type 'ament_cmake'
+[0.844s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/erdem/control_ws/src/example_2'
+[0.846s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.846s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.853s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/erdem/control_ws/src/example_3' with build type 'ament_cmake'
+[0.854s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/erdem/control_ws/src/example_3'
+[0.855s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.855s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.864s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/erdem/control_ws/src/example_4' with build type 'ament_cmake'
+[0.864s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/erdem/control_ws/src/example_4'
+[0.867s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.867s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.880s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erdem/control_ws/build/ros2_control_demo_example_1': CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:/home/erdem/control_ws/install/ros2_control_demos:/home/erdem/control_ws/install/ros2_control_demo_example_9:/home/erdem/control_ws/install/ros2_control_demo_example_8:/home/erdem/control_ws/install/ros2_control_demo_example_7:/home/erdem/control_ws/install/ros2_control_demo_example_6:/home/erdem/control_ws/install/ros2_control_demo_example_5:/home/erdem/control_ws/install/ros2_control_demo_example_4:/home/erdem/control_ws/install/ros2_control_demo_example_3:/home/erdem/control_ws/install/ros2_control_demo_example_2:/home/erdem/control_ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --build /home/erdem/control_ws/build/ros2_control_demo_example_1 -- -j4 -l4
+[0.884s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erdem/control_ws/build/ros2_control_demo_example_2': CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:/home/erdem/control_ws/install/ros2_control_demos:/home/erdem/control_ws/install/ros2_control_demo_example_9:/home/erdem/control_ws/install/ros2_control_demo_example_8:/home/erdem/control_ws/install/ros2_control_demo_example_7:/home/erdem/control_ws/install/ros2_control_demo_example_6:/home/erdem/control_ws/install/ros2_control_demo_example_5:/home/erdem/control_ws/install/ros2_control_demo_example_4:/home/erdem/control_ws/install/ros2_control_demo_example_3:/home/erdem/control_ws/install/ros2_control_demo_example_2:/home/erdem/control_ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --build /home/erdem/control_ws/build/ros2_control_demo_example_2 -- -j4 -l4
+[0.890s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erdem/control_ws/build/ros2_control_demo_example_3': CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:/home/erdem/control_ws/install/ros2_control_demos:/home/erdem/control_ws/install/ros2_control_demo_example_9:/home/erdem/control_ws/install/ros2_control_demo_example_8:/home/erdem/control_ws/install/ros2_control_demo_example_7:/home/erdem/control_ws/install/ros2_control_demo_example_6:/home/erdem/control_ws/install/ros2_control_demo_example_5:/home/erdem/control_ws/install/ros2_control_demo_example_4:/home/erdem/control_ws/install/ros2_control_demo_example_3:/home/erdem/control_ws/install/ros2_control_demo_example_2:/home/erdem/control_ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --build /home/erdem/control_ws/build/ros2_control_demo_example_3 -- -j4 -l4
+[0.910s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erdem/control_ws/build/ros2_control_demo_example_4': CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:/home/erdem/control_ws/install/ros2_control_demos:/home/erdem/control_ws/install/ros2_control_demo_example_9:/home/erdem/control_ws/install/ros2_control_demo_example_8:/home/erdem/control_ws/install/ros2_control_demo_example_7:/home/erdem/control_ws/install/ros2_control_demo_example_6:/home/erdem/control_ws/install/ros2_control_demo_example_5:/home/erdem/control_ws/install/ros2_control_demo_example_4:/home/erdem/control_ws/install/ros2_control_demo_example_3:/home/erdem/control_ws/install/ros2_control_demo_example_2:/home/erdem/control_ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --build /home/erdem/control_ws/build/ros2_control_demo_example_4 -- -j4 -l4
+[1.061s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erdem/control_ws/build/ros2_control_demo_example_1' returned '0': CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:/home/erdem/control_ws/install/ros2_control_demos:/home/erdem/control_ws/install/ros2_control_demo_example_9:/home/erdem/control_ws/install/ros2_control_demo_example_8:/home/erdem/control_ws/install/ros2_control_demo_example_7:/home/erdem/control_ws/install/ros2_control_demo_example_6:/home/erdem/control_ws/install/ros2_control_demo_example_5:/home/erdem/control_ws/install/ros2_control_demo_example_4:/home/erdem/control_ws/install/ros2_control_demo_example_3:/home/erdem/control_ws/install/ros2_control_demo_example_2:/home/erdem/control_ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --build /home/erdem/control_ws/build/ros2_control_demo_example_1 -- -j4 -l4
+[1.075s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erdem/control_ws/build/ros2_control_demo_example_3' returned '0': CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:/home/erdem/control_ws/install/ros2_control_demos:/home/erdem/control_ws/install/ros2_control_demo_example_9:/home/erdem/control_ws/install/ros2_control_demo_example_8:/home/erdem/control_ws/install/ros2_control_demo_example_7:/home/erdem/control_ws/install/ros2_control_demo_example_6:/home/erdem/control_ws/install/ros2_control_demo_example_5:/home/erdem/control_ws/install/ros2_control_demo_example_4:/home/erdem/control_ws/install/ros2_control_demo_example_3:/home/erdem/control_ws/install/ros2_control_demo_example_2:/home/erdem/control_ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --build /home/erdem/control_ws/build/ros2_control_demo_example_3 -- -j4 -l4
+[1.084s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erdem/control_ws/build/ros2_control_demo_example_4' returned '0': CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:/home/erdem/control_ws/install/ros2_control_demos:/home/erdem/control_ws/install/ros2_control_demo_example_9:/home/erdem/control_ws/install/ros2_control_demo_example_8:/home/erdem/control_ws/install/ros2_control_demo_example_7:/home/erdem/control_ws/install/ros2_control_demo_example_6:/home/erdem/control_ws/install/ros2_control_demo_example_5:/home/erdem/control_ws/install/ros2_control_demo_example_4:/home/erdem/control_ws/install/ros2_control_demo_example_3:/home/erdem/control_ws/install/ros2_control_demo_example_2:/home/erdem/control_ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --build /home/erdem/control_ws/build/ros2_control_demo_example_4 -- -j4 -l4
+[1.155s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erdem/control_ws/build/ros2_control_demo_example_1': CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:/home/erdem/control_ws/install/ros2_control_demos:/home/erdem/control_ws/install/ros2_control_demo_example_9:/home/erdem/control_ws/install/ros2_control_demo_example_8:/home/erdem/control_ws/install/ros2_control_demo_example_7:/home/erdem/control_ws/install/ros2_control_demo_example_6:/home/erdem/control_ws/install/ros2_control_demo_example_5:/home/erdem/control_ws/install/ros2_control_demo_example_4:/home/erdem/control_ws/install/ros2_control_demo_example_3:/home/erdem/control_ws/install/ros2_control_demo_example_2:/home/erdem/control_ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --install /home/erdem/control_ws/build/ros2_control_demo_example_1
+[1.212s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erdem/control_ws/build/ros2_control_demo_example_3': CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:/home/erdem/control_ws/install/ros2_control_demos:/home/erdem/control_ws/install/ros2_control_demo_example_9:/home/erdem/control_ws/install/ros2_control_demo_example_8:/home/erdem/control_ws/install/ros2_control_demo_example_7:/home/erdem/control_ws/install/ros2_control_demo_example_6:/home/erdem/control_ws/install/ros2_control_demo_example_5:/home/erdem/control_ws/install/ros2_control_demo_example_4:/home/erdem/control_ws/install/ros2_control_demo_example_3:/home/erdem/control_ws/install/ros2_control_demo_example_2:/home/erdem/control_ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --install /home/erdem/control_ws/build/ros2_control_demo_example_3
+[1.228s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erdem/control_ws/build/ros2_control_demo_example_4': CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:/home/erdem/control_ws/install/ros2_control_demos:/home/erdem/control_ws/install/ros2_control_demo_example_9:/home/erdem/control_ws/install/ros2_control_demo_example_8:/home/erdem/control_ws/install/ros2_control_demo_example_7:/home/erdem/control_ws/install/ros2_control_demo_example_6:/home/erdem/control_ws/install/ros2_control_demo_example_5:/home/erdem/control_ws/install/ros2_control_demo_example_4:/home/erdem/control_ws/install/ros2_control_demo_example_3:/home/erdem/control_ws/install/ros2_control_demo_example_2:/home/erdem/control_ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --install /home/erdem/control_ws/build/ros2_control_demo_example_4
+[1.239s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_demo_example_1)
+[1.245s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_1' for CMake module files
+[1.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erdem/control_ws/build/ros2_control_demo_example_1' returned '0': CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:/home/erdem/control_ws/install/ros2_control_demos:/home/erdem/control_ws/install/ros2_control_demo_example_9:/home/erdem/control_ws/install/ros2_control_demo_example_8:/home/erdem/control_ws/install/ros2_control_demo_example_7:/home/erdem/control_ws/install/ros2_control_demo_example_6:/home/erdem/control_ws/install/ros2_control_demo_example_5:/home/erdem/control_ws/install/ros2_control_demo_example_4:/home/erdem/control_ws/install/ros2_control_demo_example_3:/home/erdem/control_ws/install/ros2_control_demo_example_2:/home/erdem/control_ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --install /home/erdem/control_ws/build/ros2_control_demo_example_1
+[1.247s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_1' for CMake config files
+[1.248s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_example_1', 'cmake_prefix_path')
+[1.251s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/hook/cmake_prefix_path.ps1'
+[1.251s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/hook/cmake_prefix_path.dsv'
+[1.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/hook/cmake_prefix_path.sh'
+[1.278s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_1/lib'
+[1.279s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_example_1', 'ld_library_path_lib')
+[1.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/hook/ld_library_path_lib.ps1'
+[1.282s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/hook/ld_library_path_lib.dsv'
+[1.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/hook/ld_library_path_lib.sh'
+[1.294s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_1/bin'
+[1.294s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_1/lib/pkgconfig/ros2_control_demo_example_1.pc'
+[1.294s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_1/lib/python3.10/site-packages'
+[1.295s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_1/bin'
+[1.298s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/package.ps1'
+[1.298s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/package.dsv'
+[1.299s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/package.sh'
+[1.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/package.bash'
+[1.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/package.zsh'
+[1.301s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erdem/control_ws/install/ros2_control_demo_example_1/share/colcon-core/packages/ros2_control_demo_example_1)
+[1.317s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_demo_example_4)
+[1.320s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_4' for CMake module files
+[1.321s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_4' for CMake config files
+[1.322s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_example_4', 'cmake_prefix_path')
+[1.324s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/hook/cmake_prefix_path.ps1'
+[1.327s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/hook/cmake_prefix_path.dsv'
+[1.328s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erdem/control_ws/build/ros2_control_demo_example_4' returned '0': CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:/home/erdem/control_ws/install/ros2_control_demos:/home/erdem/control_ws/install/ros2_control_demo_example_9:/home/erdem/control_ws/install/ros2_control_demo_example_8:/home/erdem/control_ws/install/ros2_control_demo_example_7:/home/erdem/control_ws/install/ros2_control_demo_example_6:/home/erdem/control_ws/install/ros2_control_demo_example_5:/home/erdem/control_ws/install/ros2_control_demo_example_4:/home/erdem/control_ws/install/ros2_control_demo_example_3:/home/erdem/control_ws/install/ros2_control_demo_example_2:/home/erdem/control_ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --install /home/erdem/control_ws/build/ros2_control_demo_example_4
+[1.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/hook/cmake_prefix_path.sh'
+[1.330s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_4/lib'
+[1.330s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_example_4', 'ld_library_path_lib')
+[1.333s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/hook/ld_library_path_lib.ps1'
+[1.334s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/hook/ld_library_path_lib.dsv'
+[1.334s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/hook/ld_library_path_lib.sh'
+[1.335s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_4/bin'
+[1.335s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_4/lib/pkgconfig/ros2_control_demo_example_4.pc'
+[1.336s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_4/lib/python3.10/site-packages'
+[1.336s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_4/bin'
+[1.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/package.ps1'
+[1.342s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/package.dsv'
+[1.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/package.sh'
+[1.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/package.bash'
+[1.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/package.zsh'
+[1.345s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erdem/control_ws/install/ros2_control_demo_example_4/share/colcon-core/packages/ros2_control_demo_example_4)
+[1.352s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_demo_example_3)
+[1.356s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_3' for CMake module files
+[1.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erdem/control_ws/build/ros2_control_demo_example_3' returned '0': CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:/home/erdem/control_ws/install/ros2_control_demos:/home/erdem/control_ws/install/ros2_control_demo_example_9:/home/erdem/control_ws/install/ros2_control_demo_example_8:/home/erdem/control_ws/install/ros2_control_demo_example_7:/home/erdem/control_ws/install/ros2_control_demo_example_6:/home/erdem/control_ws/install/ros2_control_demo_example_5:/home/erdem/control_ws/install/ros2_control_demo_example_4:/home/erdem/control_ws/install/ros2_control_demo_example_3:/home/erdem/control_ws/install/ros2_control_demo_example_2:/home/erdem/control_ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --install /home/erdem/control_ws/build/ros2_control_demo_example_3
+[1.358s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_3' for CMake config files
+[1.359s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_example_3', 'cmake_prefix_path')
+[1.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_3/share/ros2_control_demo_example_3/hook/cmake_prefix_path.ps1'
+[1.363s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_3/share/ros2_control_demo_example_3/hook/cmake_prefix_path.dsv'
+[1.364s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_3/share/ros2_control_demo_example_3/hook/cmake_prefix_path.sh'
+[1.365s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_3/lib'
+[1.365s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_example_3', 'ld_library_path_lib')
+[1.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_3/share/ros2_control_demo_example_3/hook/ld_library_path_lib.ps1'
+[1.372s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_3/share/ros2_control_demo_example_3/hook/ld_library_path_lib.dsv'
+[1.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_3/share/ros2_control_demo_example_3/hook/ld_library_path_lib.sh'
+[1.375s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_3/bin'
+[1.376s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_3/lib/pkgconfig/ros2_control_demo_example_3.pc'
+[1.376s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_3/lib/python3.10/site-packages'
+[1.376s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_3/bin'
+[1.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_3/share/ros2_control_demo_example_3/package.ps1'
+[1.380s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_3/share/ros2_control_demo_example_3/package.dsv'
+[1.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_3/share/ros2_control_demo_example_3/package.sh'
+[1.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_3/share/ros2_control_demo_example_3/package.bash'
+[1.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_3/share/ros2_control_demo_example_3/package.zsh'
+[1.383s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erdem/control_ws/install/ros2_control_demo_example_3/share/colcon-core/packages/ros2_control_demo_example_3)
+[1.389s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_demo_example_1)
+[1.393s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_1' for CMake module files
+[1.394s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_1' for CMake config files
+[1.395s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_example_1', 'cmake_prefix_path')
+[1.398s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/hook/cmake_prefix_path.ps1'
+[1.399s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/hook/cmake_prefix_path.dsv'
+[1.399s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/hook/cmake_prefix_path.sh'
+[1.401s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_1/lib'
+[1.402s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_example_1', 'ld_library_path_lib')
+[1.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/hook/ld_library_path_lib.ps1'
+[1.406s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/hook/ld_library_path_lib.dsv'
+[1.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/hook/ld_library_path_lib.sh'
+[1.407s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_1/bin'
+[1.407s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_1/lib/pkgconfig/ros2_control_demo_example_1.pc'
+[1.407s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_1/lib/python3.10/site-packages'
+[1.408s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_1/bin'
+[1.411s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/package.ps1'
+[1.413s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/package.dsv'
+[1.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/package.sh'
+[1.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/package.bash'
+[1.415s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_1/share/ros2_control_demo_example_1/package.zsh'
+[1.415s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erdem/control_ws/install/ros2_control_demo_example_1/share/colcon-core/packages/ros2_control_demo_example_1)
+[1.418s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/erdem/control_ws/src/example_5' with build type 'ament_cmake'
+[1.418s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/erdem/control_ws/src/example_5'
+[1.420s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.420s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.436s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_demo_example_4)
+[1.443s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_4' for CMake module files
+[1.444s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_4' for CMake config files
+[1.445s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_example_4', 'cmake_prefix_path')
+[1.446s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/hook/cmake_prefix_path.ps1'
+[1.447s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/hook/cmake_prefix_path.dsv'
+[1.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/hook/cmake_prefix_path.sh'
+[1.448s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_4/lib'
+[1.448s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_example_4', 'ld_library_path_lib')
+[1.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/hook/ld_library_path_lib.ps1'
+[1.452s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/hook/ld_library_path_lib.dsv'
+[1.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/hook/ld_library_path_lib.sh'
+[1.455s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_4/bin'
+[1.455s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_4/lib/pkgconfig/ros2_control_demo_example_4.pc'
+[1.456s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_4/lib/python3.10/site-packages'
+[1.456s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_4/bin'
+[1.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/package.ps1'
+[1.461s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/package.dsv'
+[1.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/package.sh'
+[1.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/package.bash'
+[1.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_4/share/ros2_control_demo_example_4/package.zsh'
+[1.466s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erdem/control_ws/install/ros2_control_demo_example_4/share/colcon-core/packages/ros2_control_demo_example_4)
+[1.467s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/erdem/control_ws/src/example_6' with build type 'ament_cmake'
+[1.468s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/erdem/control_ws/src/example_6'
+[1.470s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.470s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.492s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_demo_example_3)
+[1.499s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_3' for CMake module files
+[1.500s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_3' for CMake config files
+[1.501s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_example_3', 'cmake_prefix_path')
+[1.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_3/share/ros2_control_demo_example_3/hook/cmake_prefix_path.ps1'
+[1.505s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_3/share/ros2_control_demo_example_3/hook/cmake_prefix_path.dsv'
+[1.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_3/share/ros2_control_demo_example_3/hook/cmake_prefix_path.sh'
+[1.507s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_3/lib'
+[1.507s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_example_3', 'ld_library_path_lib')
+[1.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_3/share/ros2_control_demo_example_3/hook/ld_library_path_lib.ps1'
+[1.512s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_3/share/ros2_control_demo_example_3/hook/ld_library_path_lib.dsv'
+[1.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_3/share/ros2_control_demo_example_3/hook/ld_library_path_lib.sh'
+[1.514s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_3/bin'
+[1.514s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_3/lib/pkgconfig/ros2_control_demo_example_3.pc'
+[1.514s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_3/lib/python3.10/site-packages'
+[1.515s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_3/bin'
+[1.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_3/share/ros2_control_demo_example_3/package.ps1'
+[1.520s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_3/share/ros2_control_demo_example_3/package.dsv'
+[1.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_3/share/ros2_control_demo_example_3/package.sh'
+[1.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_3/share/ros2_control_demo_example_3/package.bash'
+[1.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_3/share/ros2_control_demo_example_3/package.zsh'
+[1.523s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erdem/control_ws/install/ros2_control_demo_example_3/share/colcon-core/packages/ros2_control_demo_example_3)
+[1.528s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erdem/control_ws/build/ros2_control_demo_example_5': CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:/home/erdem/control_ws/install/ros2_control_demos:/home/erdem/control_ws/install/ros2_control_demo_example_9:/home/erdem/control_ws/install/ros2_control_demo_example_8:/home/erdem/control_ws/install/ros2_control_demo_example_7:/home/erdem/control_ws/install/ros2_control_demo_example_6:/home/erdem/control_ws/install/ros2_control_demo_example_5:/home/erdem/control_ws/install/ros2_control_demo_example_4:/home/erdem/control_ws/install/ros2_control_demo_example_3:/home/erdem/control_ws/install/ros2_control_demo_example_2:/home/erdem/control_ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --build /home/erdem/control_ws/build/ros2_control_demo_example_5 -- -j4 -l4
+[1.529s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/erdem/control_ws/src/example_8' with build type 'ament_cmake'
+[1.529s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/erdem/control_ws/src/example_8'
+[1.532s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.532s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.559s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erdem/control_ws/build/ros2_control_demo_example_6': CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:/home/erdem/control_ws/install/ros2_control_demos:/home/erdem/control_ws/install/ros2_control_demo_example_9:/home/erdem/control_ws/install/ros2_control_demo_example_8:/home/erdem/control_ws/install/ros2_control_demo_example_7:/home/erdem/control_ws/install/ros2_control_demo_example_6:/home/erdem/control_ws/install/ros2_control_demo_example_5:/home/erdem/control_ws/install/ros2_control_demo_example_4:/home/erdem/control_ws/install/ros2_control_demo_example_3:/home/erdem/control_ws/install/ros2_control_demo_example_2:/home/erdem/control_ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --build /home/erdem/control_ws/build/ros2_control_demo_example_6 -- -j4 -l4
+[1.574s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erdem/control_ws/build/ros2_control_demo_example_8': CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:/home/erdem/control_ws/install/ros2_control_demos:/home/erdem/control_ws/install/ros2_control_demo_example_9:/home/erdem/control_ws/install/ros2_control_demo_example_8:/home/erdem/control_ws/install/ros2_control_demo_example_7:/home/erdem/control_ws/install/ros2_control_demo_example_6:/home/erdem/control_ws/install/ros2_control_demo_example_5:/home/erdem/control_ws/install/ros2_control_demo_example_4:/home/erdem/control_ws/install/ros2_control_demo_example_3:/home/erdem/control_ws/install/ros2_control_demo_example_2:/home/erdem/control_ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --build /home/erdem/control_ws/build/ros2_control_demo_example_8 -- -j4 -l4
+[1.703s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erdem/control_ws/build/ros2_control_demo_example_5' returned '0': CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:/home/erdem/control_ws/install/ros2_control_demos:/home/erdem/control_ws/install/ros2_control_demo_example_9:/home/erdem/control_ws/install/ros2_control_demo_example_8:/home/erdem/control_ws/install/ros2_control_demo_example_7:/home/erdem/control_ws/install/ros2_control_demo_example_6:/home/erdem/control_ws/install/ros2_control_demo_example_5:/home/erdem/control_ws/install/ros2_control_demo_example_4:/home/erdem/control_ws/install/ros2_control_demo_example_3:/home/erdem/control_ws/install/ros2_control_demo_example_2:/home/erdem/control_ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --build /home/erdem/control_ws/build/ros2_control_demo_example_5 -- -j4 -l4
+[1.752s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erdem/control_ws/build/ros2_control_demo_example_6' returned '0': CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:/home/erdem/control_ws/install/ros2_control_demos:/home/erdem/control_ws/install/ros2_control_demo_example_9:/home/erdem/control_ws/install/ros2_control_demo_example_8:/home/erdem/control_ws/install/ros2_control_demo_example_7:/home/erdem/control_ws/install/ros2_control_demo_example_6:/home/erdem/control_ws/install/ros2_control_demo_example_5:/home/erdem/control_ws/install/ros2_control_demo_example_4:/home/erdem/control_ws/install/ros2_control_demo_example_3:/home/erdem/control_ws/install/ros2_control_demo_example_2:/home/erdem/control_ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --build /home/erdem/control_ws/build/ros2_control_demo_example_6 -- -j4 -l4
+[1.763s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erdem/control_ws/build/ros2_control_demo_example_8' returned '0': CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:/home/erdem/control_ws/install/ros2_control_demos:/home/erdem/control_ws/install/ros2_control_demo_example_9:/home/erdem/control_ws/install/ros2_control_demo_example_8:/home/erdem/control_ws/install/ros2_control_demo_example_7:/home/erdem/control_ws/install/ros2_control_demo_example_6:/home/erdem/control_ws/install/ros2_control_demo_example_5:/home/erdem/control_ws/install/ros2_control_demo_example_4:/home/erdem/control_ws/install/ros2_control_demo_example_3:/home/erdem/control_ws/install/ros2_control_demo_example_2:/home/erdem/control_ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --build /home/erdem/control_ws/build/ros2_control_demo_example_8 -- -j4 -l4
+[1.782s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erdem/control_ws/build/ros2_control_demo_example_5': CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:/home/erdem/control_ws/install/ros2_control_demos:/home/erdem/control_ws/install/ros2_control_demo_example_9:/home/erdem/control_ws/install/ros2_control_demo_example_8:/home/erdem/control_ws/install/ros2_control_demo_example_7:/home/erdem/control_ws/install/ros2_control_demo_example_6:/home/erdem/control_ws/install/ros2_control_demo_example_5:/home/erdem/control_ws/install/ros2_control_demo_example_4:/home/erdem/control_ws/install/ros2_control_demo_example_3:/home/erdem/control_ws/install/ros2_control_demo_example_2:/home/erdem/control_ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --install /home/erdem/control_ws/build/ros2_control_demo_example_5
+[1.822s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erdem/control_ws/build/ros2_control_demo_example_6': CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:/home/erdem/control_ws/install/ros2_control_demos:/home/erdem/control_ws/install/ros2_control_demo_example_9:/home/erdem/control_ws/install/ros2_control_demo_example_8:/home/erdem/control_ws/install/ros2_control_demo_example_7:/home/erdem/control_ws/install/ros2_control_demo_example_6:/home/erdem/control_ws/install/ros2_control_demo_example_5:/home/erdem/control_ws/install/ros2_control_demo_example_4:/home/erdem/control_ws/install/ros2_control_demo_example_3:/home/erdem/control_ws/install/ros2_control_demo_example_2:/home/erdem/control_ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --install /home/erdem/control_ws/build/ros2_control_demo_example_6
+[1.833s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_demo_example_5)
+[1.837s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_5' for CMake module files
+[1.838s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erdem/control_ws/build/ros2_control_demo_example_5' returned '0': CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:/home/erdem/control_ws/install/ros2_control_demos:/home/erdem/control_ws/install/ros2_control_demo_example_9:/home/erdem/control_ws/install/ros2_control_demo_example_8:/home/erdem/control_ws/install/ros2_control_demo_example_7:/home/erdem/control_ws/install/ros2_control_demo_example_6:/home/erdem/control_ws/install/ros2_control_demo_example_5:/home/erdem/control_ws/install/ros2_control_demo_example_4:/home/erdem/control_ws/install/ros2_control_demo_example_3:/home/erdem/control_ws/install/ros2_control_demo_example_2:/home/erdem/control_ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --install /home/erdem/control_ws/build/ros2_control_demo_example_5
+[1.839s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_5' for CMake config files
+[1.840s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_example_5', 'cmake_prefix_path')
+[1.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5/hook/cmake_prefix_path.ps1'
+[1.849s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5/hook/cmake_prefix_path.dsv'
+[1.849s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5/hook/cmake_prefix_path.sh'
+[1.850s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_5/lib'
+[1.851s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_example_5', 'ld_library_path_lib')
+[1.854s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5/hook/ld_library_path_lib.ps1'
+[1.855s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5/hook/ld_library_path_lib.dsv'
+[1.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5/hook/ld_library_path_lib.sh'
+[1.856s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_5/bin'
+[1.856s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_5/lib/pkgconfig/ros2_control_demo_example_5.pc'
+[1.857s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_5/lib/python3.10/site-packages'
+[1.861s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_5/bin'
+[1.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5/package.ps1'
+[1.865s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5/package.dsv'
+[1.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5/package.sh'
+[1.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5/package.bash'
+[1.868s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5/package.zsh'
+[1.868s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erdem/control_ws/install/ros2_control_demo_example_5/share/colcon-core/packages/ros2_control_demo_example_5)
+[1.878s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erdem/control_ws/build/ros2_control_demo_example_8': CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:/home/erdem/control_ws/install/ros2_control_demos:/home/erdem/control_ws/install/ros2_control_demo_example_9:/home/erdem/control_ws/install/ros2_control_demo_example_8:/home/erdem/control_ws/install/ros2_control_demo_example_7:/home/erdem/control_ws/install/ros2_control_demo_example_6:/home/erdem/control_ws/install/ros2_control_demo_example_5:/home/erdem/control_ws/install/ros2_control_demo_example_4:/home/erdem/control_ws/install/ros2_control_demo_example_3:/home/erdem/control_ws/install/ros2_control_demo_example_2:/home/erdem/control_ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --install /home/erdem/control_ws/build/ros2_control_demo_example_8
+[1.883s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_demo_example_6)
+[1.887s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_6' for CMake module files
+[1.888s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erdem/control_ws/build/ros2_control_demo_example_6' returned '0': CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:/home/erdem/control_ws/install/ros2_control_demos:/home/erdem/control_ws/install/ros2_control_demo_example_9:/home/erdem/control_ws/install/ros2_control_demo_example_8:/home/erdem/control_ws/install/ros2_control_demo_example_7:/home/erdem/control_ws/install/ros2_control_demo_example_6:/home/erdem/control_ws/install/ros2_control_demo_example_5:/home/erdem/control_ws/install/ros2_control_demo_example_4:/home/erdem/control_ws/install/ros2_control_demo_example_3:/home/erdem/control_ws/install/ros2_control_demo_example_2:/home/erdem/control_ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --install /home/erdem/control_ws/build/ros2_control_demo_example_6
+[1.890s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_6' for CMake config files
+[1.891s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_example_6', 'cmake_prefix_path')
+[1.894s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/hook/cmake_prefix_path.ps1'
+[1.895s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/hook/cmake_prefix_path.dsv'
+[1.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/hook/cmake_prefix_path.sh'
+[1.897s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_6/lib'
+[1.897s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_example_6', 'ld_library_path_lib')
+[1.901s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/hook/ld_library_path_lib.ps1'
+[1.902s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/hook/ld_library_path_lib.dsv'
+[1.903s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/hook/ld_library_path_lib.sh'
+[1.904s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_6/bin'
+[1.904s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_6/lib/pkgconfig/ros2_control_demo_example_6.pc'
+[1.904s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_6/lib/python3.10/site-packages'
+[1.905s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_6/bin'
+[1.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/package.ps1'
+[1.909s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/package.dsv'
+[1.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/package.sh'
+[1.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/package.bash'
+[1.913s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/package.zsh'
+[1.913s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erdem/control_ws/install/ros2_control_demo_example_6/share/colcon-core/packages/ros2_control_demo_example_6)
+[1.968s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_demo_example_5)
+[1.972s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_5' for CMake module files
+[1.973s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_5' for CMake config files
+[1.974s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_example_5', 'cmake_prefix_path')
+[1.979s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5/hook/cmake_prefix_path.ps1'
+[1.985s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5/hook/cmake_prefix_path.dsv'
+[1.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5/hook/cmake_prefix_path.sh'
+[1.987s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_5/lib'
+[1.987s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_example_5', 'ld_library_path_lib')
+[1.990s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5/hook/ld_library_path_lib.ps1'
+[1.992s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5/hook/ld_library_path_lib.dsv'
+[1.993s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5/hook/ld_library_path_lib.sh'
+[1.994s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_5/bin'
+[1.995s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_5/lib/pkgconfig/ros2_control_demo_example_5.pc'
+[1.995s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_5/lib/python3.10/site-packages'
+[1.996s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_5/bin'
+[2.001s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5/package.ps1'
+[2.003s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5/package.dsv'
+[2.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5/package.sh'
+[2.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5/package.bash'
+[2.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_5/share/ros2_control_demo_example_5/package.zsh'
+[2.006s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erdem/control_ws/install/ros2_control_demo_example_5/share/colcon-core/packages/ros2_control_demo_example_5)
+[2.008s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/erdem/control_ws/src/example_9' with build type 'ament_cmake'
+[2.009s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/erdem/control_ws/src/example_9'
+[2.011s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.011s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.028s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_demo_example_8)
+[2.032s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_8' for CMake module files
+[2.034s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erdem/control_ws/build/ros2_control_demo_example_8' returned '0': CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:/home/erdem/control_ws/install/ros2_control_demos:/home/erdem/control_ws/install/ros2_control_demo_example_9:/home/erdem/control_ws/install/ros2_control_demo_example_8:/home/erdem/control_ws/install/ros2_control_demo_example_7:/home/erdem/control_ws/install/ros2_control_demo_example_6:/home/erdem/control_ws/install/ros2_control_demo_example_5:/home/erdem/control_ws/install/ros2_control_demo_example_4:/home/erdem/control_ws/install/ros2_control_demo_example_3:/home/erdem/control_ws/install/ros2_control_demo_example_2:/home/erdem/control_ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --install /home/erdem/control_ws/build/ros2_control_demo_example_8
+[2.035s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_8' for CMake config files
+[2.037s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_example_8', 'cmake_prefix_path')
+[2.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8/hook/cmake_prefix_path.ps1'
+[2.044s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8/hook/cmake_prefix_path.dsv'
+[2.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8/hook/cmake_prefix_path.sh'
+[2.046s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_8/lib'
+[2.046s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_example_8', 'ld_library_path_lib')
+[2.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8/hook/ld_library_path_lib.ps1'
+[2.050s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8/hook/ld_library_path_lib.dsv'
+[2.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8/hook/ld_library_path_lib.sh'
+[2.051s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_8/bin'
+[2.051s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_8/lib/pkgconfig/ros2_control_demo_example_8.pc'
+[2.052s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_8/lib/python3.10/site-packages'
+[2.053s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_8/bin'
+[2.056s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8/package.ps1'
+[2.057s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8/package.dsv'
+[2.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8/package.sh'
+[2.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8/package.bash'
+[2.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8/package.zsh'
+[2.060s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erdem/control_ws/install/ros2_control_demo_example_8/share/colcon-core/packages/ros2_control_demo_example_8)
+[2.065s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_demo_example_6)
+[2.070s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_6' for CMake module files
+[2.071s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_6' for CMake config files
+[2.072s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_example_6', 'cmake_prefix_path')
+[2.075s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/hook/cmake_prefix_path.ps1'
+[2.076s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/hook/cmake_prefix_path.dsv'
+[2.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/hook/cmake_prefix_path.sh'
+[2.078s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_6/lib'
+[2.079s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_example_6', 'ld_library_path_lib')
+[2.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/hook/ld_library_path_lib.ps1'
+[2.083s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/hook/ld_library_path_lib.dsv'
+[2.085s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/hook/ld_library_path_lib.sh'
+[2.086s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_6/bin'
+[2.087s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_6/lib/pkgconfig/ros2_control_demo_example_6.pc'
+[2.087s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_6/lib/python3.10/site-packages'
+[2.088s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_6/bin'
+[2.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/package.ps1'
+[2.093s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/package.dsv'
+[2.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/package.sh'
+[2.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/package.bash'
+[2.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_6/share/ros2_control_demo_example_6/package.zsh'
+[2.100s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erdem/control_ws/install/ros2_control_demo_example_6/share/colcon-core/packages/ros2_control_demo_example_6)
+[2.102s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/erdem/control_ws/src/example_7' with build type 'ament_cmake'
+[2.103s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/erdem/control_ws/src/example_7'
+[2.105s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.105s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.123s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erdem/control_ws/build/ros2_control_demo_example_9': CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:/home/erdem/control_ws/install/ros2_control_demos:/home/erdem/control_ws/install/ros2_control_demo_example_9:/home/erdem/control_ws/install/ros2_control_demo_example_8:/home/erdem/control_ws/install/ros2_control_demo_example_7:/home/erdem/control_ws/install/ros2_control_demo_example_6:/home/erdem/control_ws/install/ros2_control_demo_example_5:/home/erdem/control_ws/install/ros2_control_demo_example_4:/home/erdem/control_ws/install/ros2_control_demo_example_3:/home/erdem/control_ws/install/ros2_control_demo_example_2:/home/erdem/control_ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --build /home/erdem/control_ws/build/ros2_control_demo_example_9 -- -j4 -l4
+[2.127s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_demo_example_8)
+[2.133s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_8' for CMake module files
+[2.136s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_8' for CMake config files
+[2.137s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_example_8', 'cmake_prefix_path')
+[2.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8/hook/cmake_prefix_path.ps1'
+[2.141s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8/hook/cmake_prefix_path.dsv'
+[2.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8/hook/cmake_prefix_path.sh'
+[2.143s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_8/lib'
+[2.144s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_example_8', 'ld_library_path_lib')
+[2.148s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8/hook/ld_library_path_lib.ps1'
+[2.148s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8/hook/ld_library_path_lib.dsv'
+[2.149s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8/hook/ld_library_path_lib.sh'
+[2.150s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_8/bin'
+[2.151s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_8/lib/pkgconfig/ros2_control_demo_example_8.pc'
+[2.152s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_8/lib/python3.10/site-packages'
+[2.152s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_8/bin'
+[2.156s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8/package.ps1'
+[2.158s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8/package.dsv'
+[2.159s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8/package.sh'
+[2.161s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8/package.bash'
+[2.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_8/share/ros2_control_demo_example_8/package.zsh'
+[2.167s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erdem/control_ws/install/ros2_control_demo_example_8/share/colcon-core/packages/ros2_control_demo_example_8)
+[2.178s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erdem/control_ws/build/ros2_control_demo_example_7': CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:/home/erdem/control_ws/install/ros2_control_demos:/home/erdem/control_ws/install/ros2_control_demo_example_9:/home/erdem/control_ws/install/ros2_control_demo_example_8:/home/erdem/control_ws/install/ros2_control_demo_example_7:/home/erdem/control_ws/install/ros2_control_demo_example_6:/home/erdem/control_ws/install/ros2_control_demo_example_5:/home/erdem/control_ws/install/ros2_control_demo_example_4:/home/erdem/control_ws/install/ros2_control_demo_example_3:/home/erdem/control_ws/install/ros2_control_demo_example_2:/home/erdem/control_ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --build /home/erdem/control_ws/build/ros2_control_demo_example_7 -- -j4 -l4
+[2.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erdem/control_ws/build/ros2_control_demo_example_9' returned '0': CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:/home/erdem/control_ws/install/ros2_control_demos:/home/erdem/control_ws/install/ros2_control_demo_example_9:/home/erdem/control_ws/install/ros2_control_demo_example_8:/home/erdem/control_ws/install/ros2_control_demo_example_7:/home/erdem/control_ws/install/ros2_control_demo_example_6:/home/erdem/control_ws/install/ros2_control_demo_example_5:/home/erdem/control_ws/install/ros2_control_demo_example_4:/home/erdem/control_ws/install/ros2_control_demo_example_3:/home/erdem/control_ws/install/ros2_control_demo_example_2:/home/erdem/control_ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --build /home/erdem/control_ws/build/ros2_control_demo_example_9 -- -j4 -l4
+[2.301s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erdem/control_ws/build/ros2_control_demo_example_9': CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:/home/erdem/control_ws/install/ros2_control_demos:/home/erdem/control_ws/install/ros2_control_demo_example_9:/home/erdem/control_ws/install/ros2_control_demo_example_8:/home/erdem/control_ws/install/ros2_control_demo_example_7:/home/erdem/control_ws/install/ros2_control_demo_example_6:/home/erdem/control_ws/install/ros2_control_demo_example_5:/home/erdem/control_ws/install/ros2_control_demo_example_4:/home/erdem/control_ws/install/ros2_control_demo_example_3:/home/erdem/control_ws/install/ros2_control_demo_example_2:/home/erdem/control_ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --install /home/erdem/control_ws/build/ros2_control_demo_example_9
+[2.354s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erdem/control_ws/build/ros2_control_demo_example_7' returned '0': CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:/home/erdem/control_ws/install/ros2_control_demos:/home/erdem/control_ws/install/ros2_control_demo_example_9:/home/erdem/control_ws/install/ros2_control_demo_example_8:/home/erdem/control_ws/install/ros2_control_demo_example_7:/home/erdem/control_ws/install/ros2_control_demo_example_6:/home/erdem/control_ws/install/ros2_control_demo_example_5:/home/erdem/control_ws/install/ros2_control_demo_example_4:/home/erdem/control_ws/install/ros2_control_demo_example_3:/home/erdem/control_ws/install/ros2_control_demo_example_2:/home/erdem/control_ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --build /home/erdem/control_ws/build/ros2_control_demo_example_7 -- -j4 -l4
+[2.371s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_demo_example_9)
+[2.375s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_9' for CMake module files
+[2.377s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erdem/control_ws/build/ros2_control_demo_example_9' returned '0': CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:/home/erdem/control_ws/install/ros2_control_demos:/home/erdem/control_ws/install/ros2_control_demo_example_9:/home/erdem/control_ws/install/ros2_control_demo_example_8:/home/erdem/control_ws/install/ros2_control_demo_example_7:/home/erdem/control_ws/install/ros2_control_demo_example_6:/home/erdem/control_ws/install/ros2_control_demo_example_5:/home/erdem/control_ws/install/ros2_control_demo_example_4:/home/erdem/control_ws/install/ros2_control_demo_example_3:/home/erdem/control_ws/install/ros2_control_demo_example_2:/home/erdem/control_ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --install /home/erdem/control_ws/build/ros2_control_demo_example_9
+[2.379s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_9' for CMake config files
+[2.380s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_example_9', 'cmake_prefix_path')
+[2.382s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9/hook/cmake_prefix_path.ps1'
+[2.384s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9/hook/cmake_prefix_path.dsv'
+[2.386s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9/hook/cmake_prefix_path.sh'
+[2.388s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_9/lib'
+[2.388s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_example_9', 'ld_library_path_lib')
+[2.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9/hook/ld_library_path_lib.ps1'
+[2.393s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9/hook/ld_library_path_lib.dsv'
+[2.394s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9/hook/ld_library_path_lib.sh'
+[2.395s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_9/bin'
+[2.395s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_9/lib/pkgconfig/ros2_control_demo_example_9.pc'
+[2.395s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_9/lib/python3.10/site-packages'
+[2.396s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_9/bin'
+[2.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9/package.ps1'
+[2.402s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9/package.dsv'
+[2.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9/package.sh'
+[2.404s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9/package.bash'
+[2.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9/package.zsh'
+[2.407s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erdem/control_ws/install/ros2_control_demo_example_9/share/colcon-core/packages/ros2_control_demo_example_9)
+[2.473s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erdem/control_ws/build/ros2_control_demo_example_7': CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:/home/erdem/control_ws/install/ros2_control_demos:/home/erdem/control_ws/install/ros2_control_demo_example_9:/home/erdem/control_ws/install/ros2_control_demo_example_8:/home/erdem/control_ws/install/ros2_control_demo_example_7:/home/erdem/control_ws/install/ros2_control_demo_example_6:/home/erdem/control_ws/install/ros2_control_demo_example_5:/home/erdem/control_ws/install/ros2_control_demo_example_4:/home/erdem/control_ws/install/ros2_control_demo_example_3:/home/erdem/control_ws/install/ros2_control_demo_example_2:/home/erdem/control_ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --install /home/erdem/control_ws/build/ros2_control_demo_example_7
+[2.480s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_demo_example_9)
+[2.484s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_9' for CMake module files
+[2.486s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_9' for CMake config files
+[2.486s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_example_9', 'cmake_prefix_path')
+[2.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9/hook/cmake_prefix_path.ps1'
+[2.493s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9/hook/cmake_prefix_path.dsv'
+[2.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9/hook/cmake_prefix_path.sh'
+[2.499s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_9/lib'
+[2.499s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_example_9', 'ld_library_path_lib')
+[2.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9/hook/ld_library_path_lib.ps1'
+[2.503s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9/hook/ld_library_path_lib.dsv'
+[2.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9/hook/ld_library_path_lib.sh'
+[2.505s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_9/bin'
+[2.505s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_9/lib/pkgconfig/ros2_control_demo_example_9.pc'
+[2.505s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_9/lib/python3.10/site-packages'
+[2.506s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_9/bin'
+[2.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9/package.ps1'
+[2.510s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9/package.dsv'
+[2.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9/package.sh'
+[2.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9/package.bash'
+[2.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9/package.zsh'
+[2.514s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erdem/control_ws/install/ros2_control_demo_example_9/share/colcon-core/packages/ros2_control_demo_example_9)
+[2.522s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_demo_example_7)
+[2.523s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erdem/control_ws/build/ros2_control_demo_example_7' returned '0': CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:/home/erdem/control_ws/install/ros2_control_demos:/home/erdem/control_ws/install/ros2_control_demo_example_9:/home/erdem/control_ws/install/ros2_control_demo_example_8:/home/erdem/control_ws/install/ros2_control_demo_example_7:/home/erdem/control_ws/install/ros2_control_demo_example_6:/home/erdem/control_ws/install/ros2_control_demo_example_5:/home/erdem/control_ws/install/ros2_control_demo_example_4:/home/erdem/control_ws/install/ros2_control_demo_example_3:/home/erdem/control_ws/install/ros2_control_demo_example_2:/home/erdem/control_ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --install /home/erdem/control_ws/build/ros2_control_demo_example_7
+[2.531s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_7' for CMake module files
+[2.532s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_7' for CMake config files
+[2.533s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_example_7', 'cmake_prefix_path')
+[2.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/hook/cmake_prefix_path.ps1'
+[2.536s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/hook/cmake_prefix_path.dsv'
+[2.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/hook/cmake_prefix_path.sh'
+[2.538s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_7/lib'
+[2.538s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_example_7', 'ld_library_path_lib')
+[2.541s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/hook/ld_library_path_lib.ps1'
+[2.542s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/hook/ld_library_path_lib.dsv'
+[2.543s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/hook/ld_library_path_lib.sh'
+[2.544s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_7/bin'
+[2.544s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_7/lib/pkgconfig/ros2_control_demo_example_7.pc'
+[2.545s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_7/lib/python3.10/site-packages'
+[2.546s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_7/bin'
+[2.549s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/package.ps1'
+[2.550s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/package.dsv'
+[2.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/package.sh'
+[2.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/package.bash'
+[2.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/package.zsh'
+[2.553s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erdem/control_ws/install/ros2_control_demo_example_7/share/colcon-core/packages/ros2_control_demo_example_7)
+[2.608s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_demo_example_7)
+[2.612s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_7' for CMake module files
+[2.613s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_7' for CMake config files
+[2.614s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_example_7', 'cmake_prefix_path')
+[2.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/hook/cmake_prefix_path.ps1'
+[2.617s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/hook/cmake_prefix_path.dsv'
+[2.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/hook/cmake_prefix_path.sh'
+[2.619s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_7/lib'
+[2.619s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_example_7', 'ld_library_path_lib')
+[2.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/hook/ld_library_path_lib.ps1'
+[2.623s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/hook/ld_library_path_lib.dsv'
+[2.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/hook/ld_library_path_lib.sh'
+[2.624s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_7/bin'
+[2.625s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_7/lib/pkgconfig/ros2_control_demo_example_7.pc'
+[2.625s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_7/lib/python3.10/site-packages'
+[2.625s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_7/bin'
+[2.628s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/package.ps1'
+[2.629s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/package.dsv'
+[2.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/package.sh'
+[2.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/package.bash'
+[2.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_7/share/ros2_control_demo_example_7/package.zsh'
+[2.633s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erdem/control_ws/install/ros2_control_demo_example_7/share/colcon-core/packages/ros2_control_demo_example_7)
+[6.512s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erdem/control_ws/build/ros2_control_demo_example_2' returned '0': CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:/home/erdem/control_ws/install/ros2_control_demos:/home/erdem/control_ws/install/ros2_control_demo_example_9:/home/erdem/control_ws/install/ros2_control_demo_example_8:/home/erdem/control_ws/install/ros2_control_demo_example_7:/home/erdem/control_ws/install/ros2_control_demo_example_6:/home/erdem/control_ws/install/ros2_control_demo_example_5:/home/erdem/control_ws/install/ros2_control_demo_example_4:/home/erdem/control_ws/install/ros2_control_demo_example_3:/home/erdem/control_ws/install/ros2_control_demo_example_2:/home/erdem/control_ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --build /home/erdem/control_ws/build/ros2_control_demo_example_2 -- -j4 -l4
+[6.550s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erdem/control_ws/build/ros2_control_demo_example_2': CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:/home/erdem/control_ws/install/ros2_control_demos:/home/erdem/control_ws/install/ros2_control_demo_example_9:/home/erdem/control_ws/install/ros2_control_demo_example_8:/home/erdem/control_ws/install/ros2_control_demo_example_7:/home/erdem/control_ws/install/ros2_control_demo_example_6:/home/erdem/control_ws/install/ros2_control_demo_example_5:/home/erdem/control_ws/install/ros2_control_demo_example_4:/home/erdem/control_ws/install/ros2_control_demo_example_3:/home/erdem/control_ws/install/ros2_control_demo_example_2:/home/erdem/control_ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --install /home/erdem/control_ws/build/ros2_control_demo_example_2
+[6.594s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_demo_example_2)
+[6.597s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_2' for CMake module files
+[6.598s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erdem/control_ws/build/ros2_control_demo_example_2' returned '0': CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:/home/erdem/control_ws/install/ros2_control_demos:/home/erdem/control_ws/install/ros2_control_demo_example_9:/home/erdem/control_ws/install/ros2_control_demo_example_8:/home/erdem/control_ws/install/ros2_control_demo_example_7:/home/erdem/control_ws/install/ros2_control_demo_example_6:/home/erdem/control_ws/install/ros2_control_demo_example_5:/home/erdem/control_ws/install/ros2_control_demo_example_4:/home/erdem/control_ws/install/ros2_control_demo_example_3:/home/erdem/control_ws/install/ros2_control_demo_example_2:/home/erdem/control_ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --install /home/erdem/control_ws/build/ros2_control_demo_example_2
+[6.599s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_2' for CMake config files
+[6.600s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_example_2', 'cmake_prefix_path')
+[6.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/hook/cmake_prefix_path.ps1'
+[6.602s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/hook/cmake_prefix_path.dsv'
+[6.603s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/hook/cmake_prefix_path.sh'
+[6.603s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_2/lib'
+[6.603s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_example_2', 'ld_library_path_lib')
+[6.605s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/hook/ld_library_path_lib.ps1'
+[6.605s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/hook/ld_library_path_lib.dsv'
+[6.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/hook/ld_library_path_lib.sh'
+[6.606s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_2/bin'
+[6.606s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_2/lib/pkgconfig/ros2_control_demo_example_2.pc'
+[6.606s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_2/lib/python3.10/site-packages'
+[6.607s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_2/bin'
+[6.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/package.ps1'
+[6.609s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/package.dsv'
+[6.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/package.sh'
+[6.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/package.bash'
+[6.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/package.zsh'
+[6.610s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erdem/control_ws/install/ros2_control_demo_example_2/share/colcon-core/packages/ros2_control_demo_example_2)
+[6.648s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_demo_example_2)
+[6.650s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_2' for CMake module files
+[6.651s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_2' for CMake config files
+[6.652s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_example_2', 'cmake_prefix_path')
+[6.653s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/hook/cmake_prefix_path.ps1'
+[6.653s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/hook/cmake_prefix_path.dsv'
+[6.654s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/hook/cmake_prefix_path.sh'
+[6.654s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_2/lib'
+[6.654s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_example_2', 'ld_library_path_lib')
+[6.656s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/hook/ld_library_path_lib.ps1'
+[6.656s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/hook/ld_library_path_lib.dsv'
+[6.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/hook/ld_library_path_lib.sh'
+[6.658s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_2/bin'
+[6.658s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_2/lib/pkgconfig/ros2_control_demo_example_2.pc'
+[6.658s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_2/lib/python3.10/site-packages'
+[6.659s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demo_example_2/bin'
+[6.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/package.ps1'
+[6.662s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erdem/control_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/package.dsv'
+[6.663s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/package.sh'
+[6.663s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/package.bash'
+[6.664s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/package.zsh'
+[6.665s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erdem/control_ws/install/ros2_control_demo_example_2/share/colcon-core/packages/ros2_control_demo_example_2)
+[6.665s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/erdem/control_ws/src/ros2_control_demos' with build type 'ament_cmake'
+[6.666s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/erdem/control_ws/src/ros2_control_demos'
+[6.667s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.667s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.709s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erdem/control_ws/build/ros2_control_demos': CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_example_9:/home/erdem/control_ws/install/ros2_control_demo_example_8:/home/erdem/control_ws/install/ros2_control_demo_example_6:/home/erdem/control_ws/install/ros2_control_demo_example_5:/home/erdem/control_ws/install/ros2_control_demo_example_4:/home/erdem/control_ws/install/ros2_control_demo_example_3:/home/erdem/control_ws/install/ros2_control_demo_example_2:/home/erdem/control_ws/install/ros2_control_demo_example_1:/home/erdem/control_ws/install/ros2_control_demo_description:/home/erdem/control_ws/install/ros2_control_demos:/home/erdem/control_ws/install/ros2_control_demo_example_7:/opt/ros/humble LD_LIBRARY_PATH=/home/erdem/control_ws/install/ros2_control_demo_example_9/lib:/home/erdem/control_ws/install/ros2_control_demo_example_8/lib:/home/erdem/control_ws/install/ros2_control_demo_example_6/lib:/home/erdem/control_ws/install/ros2_control_demo_example_5/lib:/home/erdem/control_ws/install/ros2_control_demo_example_4/lib:/home/erdem/control_ws/install/ros2_control_demo_example_3/lib:/home/erdem/control_ws/install/ros2_control_demo_example_2/lib:/home/erdem/control_ws/install/ros2_control_demo_example_1/lib:/home/erdem/control_ws/install/ros2_control_demo_example_7/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/erdem/control_ws/build/ros2_control_demos -- -j4 -l4
+[6.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erdem/control_ws/build/ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_example_9:/home/erdem/control_ws/install/ros2_control_demo_example_8:/home/erdem/control_ws/install/ros2_control_demo_example_6:/home/erdem/control_ws/install/ros2_control_demo_example_5:/home/erdem/control_ws/install/ros2_control_demo_example_4:/home/erdem/control_ws/install/ros2_control_demo_example_3:/home/erdem/control_ws/install/ros2_control_demo_example_2:/home/erdem/control_ws/install/ros2_control_demo_example_1:/home/erdem/control_ws/install/ros2_control_demo_description:/home/erdem/control_ws/install/ros2_control_demos:/home/erdem/control_ws/install/ros2_control_demo_example_7:/opt/ros/humble LD_LIBRARY_PATH=/home/erdem/control_ws/install/ros2_control_demo_example_9/lib:/home/erdem/control_ws/install/ros2_control_demo_example_8/lib:/home/erdem/control_ws/install/ros2_control_demo_example_6/lib:/home/erdem/control_ws/install/ros2_control_demo_example_5/lib:/home/erdem/control_ws/install/ros2_control_demo_example_4/lib:/home/erdem/control_ws/install/ros2_control_demo_example_3/lib:/home/erdem/control_ws/install/ros2_control_demo_example_2/lib:/home/erdem/control_ws/install/ros2_control_demo_example_1/lib:/home/erdem/control_ws/install/ros2_control_demo_example_7/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/erdem/control_ws/build/ros2_control_demos -- -j4 -l4
+[6.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/erdem/control_ws/build/ros2_control_demos': CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_example_9:/home/erdem/control_ws/install/ros2_control_demo_example_8:/home/erdem/control_ws/install/ros2_control_demo_example_6:/home/erdem/control_ws/install/ros2_control_demo_example_5:/home/erdem/control_ws/install/ros2_control_demo_example_4:/home/erdem/control_ws/install/ros2_control_demo_example_3:/home/erdem/control_ws/install/ros2_control_demo_example_2:/home/erdem/control_ws/install/ros2_control_demo_example_1:/home/erdem/control_ws/install/ros2_control_demo_description:/home/erdem/control_ws/install/ros2_control_demos:/home/erdem/control_ws/install/ros2_control_demo_example_7:/opt/ros/humble LD_LIBRARY_PATH=/home/erdem/control_ws/install/ros2_control_demo_example_9/lib:/home/erdem/control_ws/install/ros2_control_demo_example_8/lib:/home/erdem/control_ws/install/ros2_control_demo_example_6/lib:/home/erdem/control_ws/install/ros2_control_demo_example_5/lib:/home/erdem/control_ws/install/ros2_control_demo_example_4/lib:/home/erdem/control_ws/install/ros2_control_demo_example_3/lib:/home/erdem/control_ws/install/ros2_control_demo_example_2/lib:/home/erdem/control_ws/install/ros2_control_demo_example_1/lib:/home/erdem/control_ws/install/ros2_control_demo_example_7/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/erdem/control_ws/build/ros2_control_demos
+[6.835s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_demos)
+[6.839s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demos' for CMake module files
+[6.840s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/erdem/control_ws/build/ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_example_9:/home/erdem/control_ws/install/ros2_control_demo_example_8:/home/erdem/control_ws/install/ros2_control_demo_example_6:/home/erdem/control_ws/install/ros2_control_demo_example_5:/home/erdem/control_ws/install/ros2_control_demo_example_4:/home/erdem/control_ws/install/ros2_control_demo_example_3:/home/erdem/control_ws/install/ros2_control_demo_example_2:/home/erdem/control_ws/install/ros2_control_demo_example_1:/home/erdem/control_ws/install/ros2_control_demo_description:/home/erdem/control_ws/install/ros2_control_demos:/home/erdem/control_ws/install/ros2_control_demo_example_7:/opt/ros/humble LD_LIBRARY_PATH=/home/erdem/control_ws/install/ros2_control_demo_example_9/lib:/home/erdem/control_ws/install/ros2_control_demo_example_8/lib:/home/erdem/control_ws/install/ros2_control_demo_example_6/lib:/home/erdem/control_ws/install/ros2_control_demo_example_5/lib:/home/erdem/control_ws/install/ros2_control_demo_example_4/lib:/home/erdem/control_ws/install/ros2_control_demo_example_3/lib:/home/erdem/control_ws/install/ros2_control_demo_example_2/lib:/home/erdem/control_ws/install/ros2_control_demo_example_1/lib:/home/erdem/control_ws/install/ros2_control_demo_example_7/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/erdem/control_ws/build/ros2_control_demos
+[6.841s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demos' for CMake config files
+[6.841s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demos', 'cmake_prefix_path')
+[6.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demos/share/ros2_control_demos/hook/cmake_prefix_path.ps1'
+[6.843s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erdem/control_ws/install/ros2_control_demos/share/ros2_control_demos/hook/cmake_prefix_path.dsv'
+[6.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demos/share/ros2_control_demos/hook/cmake_prefix_path.sh'
+[6.844s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demos/bin'
+[6.844s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demos/lib/pkgconfig/ros2_control_demos.pc'
+[6.845s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demos/lib/python3.10/site-packages'
+[6.845s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demos/bin'
+[6.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demos/share/ros2_control_demos/package.ps1'
+[6.847s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erdem/control_ws/install/ros2_control_demos/share/ros2_control_demos/package.dsv'
+[6.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demos/share/ros2_control_demos/package.sh'
+[6.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demos/share/ros2_control_demos/package.bash'
+[6.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demos/share/ros2_control_demos/package.zsh'
+[6.849s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erdem/control_ws/install/ros2_control_demos/share/colcon-core/packages/ros2_control_demos)
+[6.885s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_demos)
+[6.887s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demos' for CMake module files
+[6.888s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demos' for CMake config files
+[6.888s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demos', 'cmake_prefix_path')
+[6.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demos/share/ros2_control_demos/hook/cmake_prefix_path.ps1'
+[6.890s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/erdem/control_ws/install/ros2_control_demos/share/ros2_control_demos/hook/cmake_prefix_path.dsv'
+[6.891s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/erdem/control_ws/install/ros2_control_demos/share/ros2_control_demos/hook/cmake_prefix_path.sh'
+[6.891s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demos/bin'
+[6.891s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demos/lib/pkgconfig/ros2_control_demos.pc'
+[6.892s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demos/lib/python3.10/site-packages'
+[6.892s] Level 1:colcon.colcon_core.environment:checking '/home/erdem/control_ws/install/ros2_control_demos/bin'
+[6.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demos/share/ros2_control_demos/package.ps1'
+[6.895s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/erdem/control_ws/install/ros2_control_demos/share/ros2_control_demos/package.dsv'
+[6.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demos/share/ros2_control_demos/package.sh'
+[6.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demos/share/ros2_control_demos/package.bash'
+[6.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/erdem/control_ws/install/ros2_control_demos/share/ros2_control_demos/package.zsh'
+[6.897s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/erdem/control_ws/install/ros2_control_demos/share/colcon-core/packages/ros2_control_demos)
+[6.897s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.897s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.898s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.898s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.905s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.905s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.905s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.919s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.921s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/erdem/control_ws/install/local_setup.ps1'
+[6.922s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/erdem/control_ws/install/_local_setup_util_ps1.py'
+[6.923s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/erdem/control_ws/install/setup.ps1'
+[6.927s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/erdem/control_ws/install/local_setup.sh'
+[6.927s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/erdem/control_ws/install/_local_setup_util_sh.py'
+[6.928s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/erdem/control_ws/install/setup.sh'
+[6.932s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/erdem/control_ws/install/local_setup.bash'
+[6.933s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/erdem/control_ws/install/setup.bash'
+[6.936s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/erdem/control_ws/install/local_setup.zsh'
+[6.937s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/erdem/control_ws/install/setup.zsh'

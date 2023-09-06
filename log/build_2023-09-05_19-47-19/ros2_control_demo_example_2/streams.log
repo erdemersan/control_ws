@@ -1,0 +1,241 @@
+[0.040s] Invoking command in '/home/erdem/control_ws/build/ros2_control_demo_example_2': CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:/home/erdem/control_ws/install/ros2_control_demos:/home/erdem/control_ws/install/ros2_control_demo_example_9:/home/erdem/control_ws/install/ros2_control_demo_example_8:/home/erdem/control_ws/install/ros2_control_demo_example_7:/home/erdem/control_ws/install/ros2_control_demo_example_6:/home/erdem/control_ws/install/ros2_control_demo_example_5:/home/erdem/control_ws/install/ros2_control_demo_example_4:/home/erdem/control_ws/install/ros2_control_demo_example_3:/home/erdem/control_ws/install/ros2_control_demo_example_2:/home/erdem/control_ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --build /home/erdem/control_ws/build/ros2_control_demo_example_2 -- -j4 -l4
+[0.134s] [35m[1mConsolidate compiler generated dependencies of target ros2_control_demo_example_2[0m
+[0.186s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_2.dir/hardware/diffbot_system.cpp.o[0m
+[0.607s] In file included from [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/dynamixel_sdk.h:48[m[K,
+[0.607s]                  from [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/diffbot_system.hpp:35[m[K,
+[0.608s]                  from [01m[K/home/erdem/control_ws/src/example_2/hardware/diffbot_system.cpp:3[m[K:
+[0.608s] [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/protocol2_packet_handler.hpp:37:[m[K [01;35m[Kwarning: [m[K"TXPACKET_MAX_LEN" redefined
+[0.608s]    37 | #define TXPACKET_MAX_LEN    (1*1024)
+[0.608s]       | 
+[0.608s] In file included from [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/dynamixel_sdk.h:47[m[K,
+[0.609s]                  from [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/diffbot_system.hpp:35[m[K,
+[0.609s]                  from [01m[K/home/erdem/control_ws/src/example_2/hardware/diffbot_system.cpp:3[m[K:
+[0.609s] [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/protocol1_packet_handler.hpp:33:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+[0.610s]    33 | #define TXPACKET_MAX_LEN    (250)
+[0.610s]       | 
+[0.610s] In file included from [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/dynamixel_sdk.h:48[m[K,
+[0.611s]                  from [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/diffbot_system.hpp:35[m[K,
+[0.611s]                  from [01m[K/home/erdem/control_ws/src/example_2/hardware/diffbot_system.cpp:3[m[K:
+[0.611s] [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/protocol2_packet_handler.hpp:38:[m[K [01;35m[Kwarning: [m[K"RXPACKET_MAX_LEN" redefined
+[0.613s]    38 | #define RXPACKET_MAX_LEN    (1*1024)
+[0.616s]       | 
+[0.617s] In file included from [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/dynamixel_sdk.h:47[m[K,
+[0.617s]                  from [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/diffbot_system.hpp:35[m[K,
+[0.617s]                  from [01m[K/home/erdem/control_ws/src/example_2/hardware/diffbot_system.cpp:3[m[K:
+[0.618s] [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/protocol1_packet_handler.hpp:34:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+[0.618s]    34 | #define RXPACKET_MAX_LEN    (250)
+[0.618s]       | 
+[0.619s] In file included from [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/dynamixel_sdk.h:48[m[K,
+[0.619s]                  from [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/diffbot_system.hpp:35[m[K,
+[0.620s]                  from [01m[K/home/erdem/control_ws/src/example_2/hardware/diffbot_system.cpp:3[m[K:
+[0.620s] [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/protocol2_packet_handler.hpp:45:[m[K [01;35m[Kwarning: [m[K"PKT_ID" redefined
+[0.620s]    45 | #define PKT_ID                  4
+[0.621s]       | 
+[0.621s] In file included from [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/dynamixel_sdk.h:47[m[K,
+[0.621s]                  from [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/diffbot_system.hpp:35[m[K,
+[0.621s]                  from [01m[K/home/erdem/control_ws/src/example_2/hardware/diffbot_system.cpp:3[m[K:
+[0.622s] [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/protocol1_packet_handler.hpp:39:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+[0.622s]    39 | #define PKT_ID                  2
+[0.626s]       | 
+[0.628s] In file included from [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/dynamixel_sdk.h:48[m[K,
+[0.628s]                  from [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/diffbot_system.hpp:35[m[K,
+[0.628s]                  from [01m[K/home/erdem/control_ws/src/example_2/hardware/diffbot_system.cpp:3[m[K:
+[0.628s] [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/protocol2_packet_handler.hpp:48:[m[K [01;35m[Kwarning: [m[K"PKT_INSTRUCTION" redefined
+[0.628s]    48 | #define PKT_INSTRUCTION         7
+[0.629s]       | 
+[0.629s] In file included from [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/dynamixel_sdk.h:47[m[K,
+[0.629s]                  from [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/diffbot_system.hpp:35[m[K,
+[0.629s]                  from [01m[K/home/erdem/control_ws/src/example_2/hardware/diffbot_system.cpp:3[m[K:
+[0.629s] [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/protocol1_packet_handler.hpp:41:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+[0.629s]    41 | #define PKT_INSTRUCTION         4
+[0.630s]       | 
+[0.630s] In file included from [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/dynamixel_sdk.h:48[m[K,
+[0.630s]                  from [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/diffbot_system.hpp:35[m[K,
+[0.630s]                  from [01m[K/home/erdem/control_ws/src/example_2/hardware/diffbot_system.cpp:3[m[K:
+[0.630s] [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/protocol2_packet_handler.hpp:49:[m[K [01;35m[Kwarning: [m[K"PKT_ERROR" redefined
+[0.630s]    49 | #define PKT_ERROR               8
+[0.631s]       | 
+[0.631s] In file included from [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/dynamixel_sdk.h:47[m[K,
+[0.631s]                  from [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/diffbot_system.hpp:35[m[K,
+[0.631s]                  from [01m[K/home/erdem/control_ws/src/example_2/hardware/diffbot_system.cpp:3[m[K:
+[0.631s] [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/protocol1_packet_handler.hpp:42:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+[0.631s]    42 | #define PKT_ERROR               4
+[0.632s]       | 
+[0.632s] In file included from [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/dynamixel_sdk.h:48[m[K,
+[0.632s]                  from [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/diffbot_system.hpp:35[m[K,
+[0.632s]                  from [01m[K/home/erdem/control_ws/src/example_2/hardware/diffbot_system.cpp:3[m[K:
+[0.632s] [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/protocol2_packet_handler.hpp:50:[m[K [01;35m[Kwarning: [m[K"PKT_PARAMETER0" redefined
+[0.632s]    50 | #define PKT_PARAMETER0          8
+[0.633s]       | 
+[0.633s] In file included from [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/dynamixel_sdk.h:47[m[K,
+[0.633s]                  from [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/diffbot_system.hpp:35[m[K,
+[0.633s]                  from [01m[K/home/erdem/control_ws/src/example_2/hardware/diffbot_system.cpp:3[m[K:
+[0.633s] [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/protocol1_packet_handler.hpp:43:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+[0.633s]    43 | #define PKT_PARAMETER0          5
+[0.635s]       | 
+[1.969s] In file included from [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/dynamixel_sdk.h:47[m[K,
+[1.970s]                  from [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/diffbot_system.hpp:35[m[K,
+[1.970s]                  from [01m[K/home/erdem/control_ws/src/example_2/hardware/diffbot_system.cpp:3[m[K:
+[1.970s] [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/protocol1_packet_handler.hpp:[m[K In member function ‘[01m[Kvirtual int dynamixel::Protocol1PacketHandler::rxPacket(dynamixel::PortHandler*, uint8_t*, bool)[m[K’:
+[1.970s] [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/protocol1_packet_handler.hpp:160:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kskip_stuffing[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.970s]   160 | int Protocol1PacketHandler::rxPacket(PortHandler *port, uint8_t *rxpacket, [01;35m[Kbool skip_stuffing[m[K)
+[1.970s]       |                                                                            [01;35m[K~~~~~^~~~~~~~~~~~~[m[K
+[1.971s] [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/protocol1_packet_handler.hpp:[m[K In member function ‘[01m[Kvirtual int dynamixel::Protocol1PacketHandler::broadcastPing(dynamixel::PortHandler*, std::vector<unsigned char>&)[m[K’:
+[1.971s] [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/protocol1_packet_handler.hpp:347:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.971s]   347 | int Protocol1PacketHandler::broadcastPing([01;35m[KPortHandler *port[m[K, std::vector<uint8_t> &id_list)
+[1.971s]       |                                           [01;35m[K~~~~~~~~~~~~~^~~~[m[K
+[1.971s] [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/protocol1_packet_handler.hpp:347:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kid_list[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.972s]   347 | int Protocol1PacketHandler::broadcastPing(PortHandler *port, [01;35m[Kstd::vector<uint8_t> &id_list[m[K)
+[1.972s]       |                                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[1.972s] [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/protocol1_packet_handler.hpp:[m[K In member function ‘[01m[Kvirtual int dynamixel::Protocol1PacketHandler::reboot(dynamixel::PortHandler*, uint8_t, uint8_t*)[m[K’:
+[1.972s] [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/protocol1_packet_handler.hpp:363:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.972s]   363 | int Protocol1PacketHandler::reboot([01;35m[KPortHandler *port[m[K, uint8_t id, uint8_t *error)
+[1.972s]       |                                    [01;35m[K~~~~~~~~~~~~~^~~~[m[K
+[1.972s] [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/protocol1_packet_handler.hpp:363:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.972s]   363 | int Protocol1PacketHandler::reboot(PortHandler *port, [01;35m[Kuint8_t id[m[K, uint8_t *error)
+[1.973s]       |                                                       [01;35m[K~~~~~~~~^~[m[K
+[1.973s] [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/protocol1_packet_handler.hpp:363:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kerror[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.973s]   363 | int Protocol1PacketHandler::reboot(PortHandler *port, uint8_t id, [01;35m[Kuint8_t *error[m[K)
+[1.973s]       |                                                                   [01;35m[K~~~~~~~~~^~~~~[m[K
+[1.973s] [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/protocol1_packet_handler.hpp:[m[K In member function ‘[01m[Kvirtual int dynamixel::Protocol1PacketHandler::clearMultiTurn(dynamixel::PortHandler*, uint8_t, uint8_t*)[m[K’:
+[1.973s] [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/protocol1_packet_handler.hpp:368:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.974s]   368 | int Protocol1PacketHandler::clearMultiTurn([01;35m[KPortHandler *port[m[K, uint8_t id, uint8_t *error)
+[1.974s]       |                                            [01;35m[K~~~~~~~~~~~~~^~~~[m[K
+[1.974s] [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/protocol1_packet_handler.hpp:368:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.974s]   368 | int Protocol1PacketHandler::clearMultiTurn(PortHandler *port, [01;35m[Kuint8_t id[m[K, uint8_t *error)
+[1.974s]       |                                                               [01;35m[K~~~~~~~~^~[m[K
+[1.974s] [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/protocol1_packet_handler.hpp:368:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kerror[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.974s]   368 | int Protocol1PacketHandler::clearMultiTurn(PortHandler *port, uint8_t id, [01;35m[Kuint8_t *error[m[K)
+[1.974s]       |                                                                           [01;35m[K~~~~~~~~~^~~~~[m[K
+[1.975s] [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/protocol1_packet_handler.hpp:[m[K In member function ‘[01m[Kvirtual int dynamixel::Protocol1PacketHandler::factoryReset(dynamixel::PortHandler*, uint8_t, uint8_t, uint8_t*)[m[K’:
+[1.975s] [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/protocol1_packet_handler.hpp:373:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koption[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.975s]   373 | int Protocol1PacketHandler::factoryReset(PortHandler *port, uint8_t id, [01;35m[Kuint8_t option[m[K, uint8_t *error)
+[1.975s]       |                                                                         [01;35m[K~~~~~~~~^~~~~~[m[K
+[1.981s] [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/protocol1_packet_handler.hpp:[m[K In member function ‘[01m[Kvirtual int dynamixel::Protocol1PacketHandler::syncReadTx(dynamixel::PortHandler*, uint16_t, uint16_t, uint8_t*, uint16_t)[m[K’:
+[1.981s] [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/protocol1_packet_handler.hpp:685:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.981s]   685 | int Protocol1PacketHandler::syncReadTx([01;35m[KPortHandler *port[m[K, uint16_t start_address, uint16_t data_length, uint8_t *param, uint16_t param_length)
+[1.983s]       |                                        [01;35m[K~~~~~~~~~~~~~^~~~[m[K
+[1.983s] [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/protocol1_packet_handler.hpp:685:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstart_address[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.983s]   685 | int Protocol1PacketHandler::syncReadTx(PortHandler *port, [01;35m[Kuint16_t start_address[m[K, uint16_t data_length, uint8_t *param, uint16_t param_length)
+[1.983s]       |                                                           [01;35m[K~~~~~~~~~^~~~~~~~~~~~~[m[K
+[1.983s] [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/protocol1_packet_handler.hpp:685:92:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata_length[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.983s]   685 | int Protocol1PacketHandler::syncReadTx(PortHandler *port, uint16_t start_address, [01;35m[Kuint16_t data_length[m[K, uint8_t *param, uint16_t param_length)
+[1.983s]       |                                                                                   [01;35m[K~~~~~~~~~^~~~~~~~~~~[m[K
+[1.983s] [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/protocol1_packet_handler.hpp:685:114:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kparam[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.983s]   685 | int Protocol1PacketHandler::syncReadTx(PortHandler *port, uint16_t start_address, uint16_t data_length, [01;35m[Kuint8_t *param[m[K, uint16_t param_length)
+[1.984s]       |                                                                                                         [01;35m[K~~~~~~~~~^~~~~[m[K
+[1.984s] [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/protocol1_packet_handler.hpp:685:130:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kparam_length[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.984s]   685 | tocol1PacketHandler::syncReadTx(PortHandler *port, uint16_t start_address, uint16_t data_length, uint8_t *param, [01;35m[Kuint16_t param_length[m[K)
+[1.984s]       |                                                                                                                  [01;35m[K~~~~~~~~~^~~~~~~~~~~~[m[K
+[1.984s] 
+[1.984s] [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/protocol1_packet_handler.hpp:[m[K In member function ‘[01m[Kvirtual int dynamixel::Protocol1PacketHandler::bulkWriteTxOnly(dynamixel::PortHandler*, uint8_t*, uint16_t)[m[K’:
+[1.984s] [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/protocol1_packet_handler.hpp:752:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.984s]   752 | int Protocol1PacketHandler::bulkWriteTxOnly([01;35m[KPortHandler *port[m[K, uint8_t *param, uint16_t param_length)
+[1.984s]       |                                             [01;35m[K~~~~~~~~~~~~~^~~~[m[K
+[1.985s] [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/protocol1_packet_handler.hpp:752:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kparam[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.985s]   752 | int Protocol1PacketHandler::bulkWriteTxOnly(PortHandler *port, [01;35m[Kuint8_t *param[m[K, uint16_t param_length)
+[1.985s]       |                                                                [01;35m[K~~~~~~~~~^~~~~[m[K
+[1.985s] [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/protocol1_packet_handler.hpp:752:89:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kparam_length[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.985s]   752 | int Protocol1PacketHandler::bulkWriteTxOnly(PortHandler *port, uint8_t *param, [01;35m[Kuint16_t param_length[m[K)
+[1.985s]       |                                                                                [01;35m[K~~~~~~~~~^~~~~~~~~~~~[m[K
+[1.985s] [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/protocol1_packet_handler.hpp:[m[K In member function ‘[01m[Kvirtual int dynamixel::Protocol1PacketHandler::fastSyncReadTx(dynamixel::PortHandler*, uint16_t, uint16_t, uint8_t*, uint16_t)[m[K’:
+[1.985s] [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/protocol1_packet_handler.hpp:757:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.986s]   757 | int Protocol1PacketHandler::fastSyncReadTx([01;35m[KPortHandler *port[m[K, uint16_t start_address, uint16_t data_length, uint8_t *param, uint16_t param_length)
+[1.986s]       |                                            [01;35m[K~~~~~~~~~~~~~^~~~[m[K
+[1.986s] [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/protocol1_packet_handler.hpp:757:72:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstart_address[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.986s]   757 | int Protocol1PacketHandler::fastSyncReadTx(PortHandler *port, [01;35m[Kuint16_t start_address[m[K, uint16_t data_length, uint8_t *param, uint16_t param_length)
+[1.986s]       |                                                               [01;35m[K~~~~~~~~~^~~~~~~~~~~~~[m[K
+[1.986s] [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/protocol1_packet_handler.hpp:757:96:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata_length[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.986s]   757 | int Protocol1PacketHandler::fastSyncReadTx(PortHandler *port, uint16_t start_address, [01;35m[Kuint16_t data_length[m[K, uint8_t *param, uint16_t param_length)
+[1.986s]       |                                                                                       [01;35m[K~~~~~~~~~^~~~~~~~~~~[m[K
+[1.986s] [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/protocol1_packet_handler.hpp:757:118:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kparam[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.987s]   757 | int Protocol1PacketHandler::fastSyncReadTx(PortHandler *port, uint16_t start_address, uint16_t data_length, [01;35m[Kuint8_t *param[m[K, uint16_t param_length)
+[1.987s]       |                                                                                                             [01;35m[K~~~~~~~~~^~~~~[m[K
+[1.987s] [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/protocol1_packet_handler.hpp:757:134:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kparam_length[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.987s]   757 | l1PacketHandler::fastSyncReadTx(PortHandler *port, uint16_t start_address, uint16_t data_length, uint8_t *param, [01;35m[Kuint16_t param_length[m[K)
+[1.987s]       |                                                                                                                  [01;35m[K~~~~~~~~~^~~~~~~~~~~~[m[K
+[1.987s] 
+[1.987s] [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/protocol1_packet_handler.hpp:[m[K In member function ‘[01m[Kvirtual int dynamixel::Protocol1PacketHandler::fastBulkReadTx(dynamixel::PortHandler*, uint8_t*, uint16_t)[m[K’:
+[1.987s] [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/protocol1_packet_handler.hpp:762:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kport[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.987s]   762 | int Protocol1PacketHandler::fastBulkReadTx([01;35m[KPortHandler *port[m[K, uint8_t *param, uint16_t param_length)
+[1.988s]       |                                            [01;35m[K~~~~~~~~~~~~~^~~~[m[K
+[1.988s] [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/protocol1_packet_handler.hpp:762:72:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kparam[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.988s]   762 | int Protocol1PacketHandler::fastBulkReadTx(PortHandler *port, [01;35m[Kuint8_t *param[m[K, uint16_t param_length)
+[1.988s]       |                                                               [01;35m[K~~~~~~~~~^~~~~[m[K
+[1.988s] [01m[K/home/erdem/control_ws/src/example_2/hardware/include/ros2_control_demo_example_2/protocol1_packet_handler.hpp:762:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kparam_length[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.988s]   762 | int Protocol1PacketHandler::fastBulkReadTx(PortHandler *port, uint8_t *param, [01;35m[Kuint16_t param_length[m[K)
+[1.988s]       |                                                                               [01;35m[K~~~~~~~~~^~~~~~~~~~~~[m[K
+[3.937s] [01m[K/home/erdem/control_ws/src/example_2/hardware/diffbot_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type ros2_control_demo_example_2::DiffBotSystemHardware::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[3.937s] [01m[K/home/erdem/control_ws/src/example_2/hardware/diffbot_system.cpp:237:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.937s]   237 |   const rclcpp::Time & /*time*/, [01;35m[Kconst rclcpp::Duration & period[m[K)
+[3.938s]       |                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[5.421s] [100%] [32m[1mLinking CXX shared library libros2_control_demo_example_2.so[0m
+[5.652s] [100%] Built target ros2_control_demo_example_2
+[5.668s] Invoked command in '/home/erdem/control_ws/build/ros2_control_demo_example_2' returned '0': CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:/home/erdem/control_ws/install/ros2_control_demos:/home/erdem/control_ws/install/ros2_control_demo_example_9:/home/erdem/control_ws/install/ros2_control_demo_example_8:/home/erdem/control_ws/install/ros2_control_demo_example_7:/home/erdem/control_ws/install/ros2_control_demo_example_6:/home/erdem/control_ws/install/ros2_control_demo_example_5:/home/erdem/control_ws/install/ros2_control_demo_example_4:/home/erdem/control_ws/install/ros2_control_demo_example_3:/home/erdem/control_ws/install/ros2_control_demo_example_2:/home/erdem/control_ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --build /home/erdem/control_ws/build/ros2_control_demo_example_2 -- -j4 -l4
+[5.706s] Invoking command in '/home/erdem/control_ws/build/ros2_control_demo_example_2': CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:/home/erdem/control_ws/install/ros2_control_demos:/home/erdem/control_ws/install/ros2_control_demo_example_9:/home/erdem/control_ws/install/ros2_control_demo_example_8:/home/erdem/control_ws/install/ros2_control_demo_example_7:/home/erdem/control_ws/install/ros2_control_demo_example_6:/home/erdem/control_ws/install/ros2_control_demo_example_5:/home/erdem/control_ws/install/ros2_control_demo_example_4:/home/erdem/control_ws/install/ros2_control_demo_example_3:/home/erdem/control_ws/install/ros2_control_demo_example_2:/home/erdem/control_ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --install /home/erdem/control_ws/build/ros2_control_demo_example_2
+[5.717s] -- Install configuration: ""
+[5.717s] -- Execute custom install script
+[5.718s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2//ros2_control_demo_example_2.xml
+[5.719s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2/ros2_control_demo_example_2/diffbot_system.hpp
+[5.719s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2/ros2_control_demo_example_2/dynamixel_sdk.h
+[5.719s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2/ros2_control_demo_example_2/group_bulk_read.h
+[5.719s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2/ros2_control_demo_example_2/group_bulk_read.hpp
+[5.720s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2/ros2_control_demo_example_2/group_bulk_write.h
+[5.720s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2/ros2_control_demo_example_2/group_bulk_write.hpp
+[5.720s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2/ros2_control_demo_example_2/group_fast_bulk_read.h
+[5.720s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2/ros2_control_demo_example_2/group_fast_bulk_read.hpp
+[5.720s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2/ros2_control_demo_example_2/group_fast_sync_read.h
+[5.720s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2/ros2_control_demo_example_2/group_fast_sync_read.hpp
+[5.721s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2/ros2_control_demo_example_2/group_handler.h
+[5.721s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2/ros2_control_demo_example_2/group_handler.hpp
+[5.721s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2/ros2_control_demo_example_2/group_sync_read.h
+[5.721s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2/ros2_control_demo_example_2/group_sync_read.hpp
+[5.722s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2/ros2_control_demo_example_2/group_sync_write.h
+[5.722s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2/ros2_control_demo_example_2/group_sync_write.hpp
+[5.722s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2/ros2_control_demo_example_2/packet_handler.h
+[5.722s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2/ros2_control_demo_example_2/packet_handler.hpp
+[5.722s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2/ros2_control_demo_example_2/port_handler.h
+[5.723s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2/ros2_control_demo_example_2/port_handler.hpp
+[5.723s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2/ros2_control_demo_example_2/port_handler_arduino.h
+[5.723s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2/ros2_control_demo_example_2/port_handler_arduino.hpp
+[5.723s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2/ros2_control_demo_example_2/port_handler_linux.h
+[5.723s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2/ros2_control_demo_example_2/port_handler_linux.hpp
+[5.724s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2/ros2_control_demo_example_2/port_handler_mac.h
+[5.724s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2/ros2_control_demo_example_2/port_handler_mac.hpp
+[5.724s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2/ros2_control_demo_example_2/port_handler_windows.h
+[5.724s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2/ros2_control_demo_example_2/port_handler_windows.hpp
+[5.724s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2/ros2_control_demo_example_2/protocol1_packet_handler.h
+[5.724s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2/ros2_control_demo_example_2/protocol1_packet_handler.hpp
+[5.725s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2/ros2_control_demo_example_2/protocol2_packet_handler.h
+[5.725s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2/ros2_control_demo_example_2/protocol2_packet_handler.hpp
+[5.725s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2/ros2_control_demo_example_2/visibility_control.h
+[5.726s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/launch/view_robot.launch.py
+[5.726s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/ros2_control/diffbot.ros2_control.xacro
+[5.726s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/urdf/diffbot.urdf.xacro
+[5.727s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/launch/diffbot.launch.py
+[5.727s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/config/diffbot_controllers.yaml
+[5.728s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/environment/library_path.sh
+[5.728s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/environment/library_path.dsv
+[5.728s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_example_2
+[5.728s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_example_2
+[5.729s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/environment/ament_prefix_path.sh
+[5.729s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/environment/ament_prefix_path.dsv
+[5.729s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/environment/path.sh
+[5.730s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/environment/path.dsv
+[5.730s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/local_setup.bash
+[5.730s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/local_setup.sh
+[5.730s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/local_setup.zsh
+[5.731s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/local_setup.dsv
+[5.731s] -- Symlinking: /home/erdem/control_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/package.dsv
+[5.743s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/share/ament_index/resource_index/packages/ros2_control_demo_example_2
+[5.743s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ros2_control_demo_example_2
+[5.744s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/cmake/ament_cmake_export_targets-extras.cmake
+[5.744s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.744s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/cmake/ros2_control_demo_example_2Config.cmake
+[5.744s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/cmake/ros2_control_demo_example_2Config-version.cmake
+[5.745s] -- Up-to-date symlink: /home/erdem/control_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/package.xml
+[5.745s] -- Installing: /home/erdem/control_ws/install/ros2_control_demo_example_2/lib/libros2_control_demo_example_2.so
+[5.747s] -- Set runtime path of "/home/erdem/control_ws/install/ros2_control_demo_example_2/lib/libros2_control_demo_example_2.so" to ""
+[5.748s] -- Up-to-date: /home/erdem/control_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/cmake/export_ros2_control_demo_example_2Export.cmake
+[5.748s] -- Up-to-date: /home/erdem/control_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/cmake/export_ros2_control_demo_example_2Export-noconfig.cmake
+[5.754s] Invoked command in '/home/erdem/control_ws/build/ros2_control_demo_example_2' returned '0': CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:/home/erdem/control_ws/install/ros2_control_demos:/home/erdem/control_ws/install/ros2_control_demo_example_9:/home/erdem/control_ws/install/ros2_control_demo_example_8:/home/erdem/control_ws/install/ros2_control_demo_example_7:/home/erdem/control_ws/install/ros2_control_demo_example_6:/home/erdem/control_ws/install/ros2_control_demo_example_5:/home/erdem/control_ws/install/ros2_control_demo_example_4:/home/erdem/control_ws/install/ros2_control_demo_example_3:/home/erdem/control_ws/install/ros2_control_demo_example_2:/home/erdem/control_ws/install/ros2_control_demo_example_1:/opt/ros/humble /usr/bin/cmake --install /home/erdem/control_ws/build/ros2_control_demo_example_2

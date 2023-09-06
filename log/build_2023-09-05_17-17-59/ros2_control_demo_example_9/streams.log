@@ -1,0 +1,76 @@
+[0.025s] Invoking command in '/home/erdem/control_ws/build/ros2_control_demo_example_9': AMENT_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:/opt/ros/humble /usr/bin/cmake /home/erdem/control_ws/src/example_9 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/erdem/control_ws/install/ros2_control_demo_example_9
+[0.155s] -- The CXX compiler identification is GNU 11.4.0
+[0.169s] -- Detecting CXX compiler ABI info
+[0.315s] -- Detecting CXX compiler ABI info - done
+[0.334s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.334s] -- Detecting CXX compile features
+[0.336s] -- Detecting CXX compile features - done
+[0.340s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.668s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.777s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.821s] -- Found hardware_interface: 2.30.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.894s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.903s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.921s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.949s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.990s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.643s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.648s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.852s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.904s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.998s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.014s] -- Looking for C++ include pthread.h
+[3.164s] -- Looking for C++ include pthread.h - found
+[3.164s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.318s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.320s] -- Found Threads: TRUE  
+[3.962s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[4.208s] -- Configuring done
+[4.277s] -- Generating done
+[4.281s] -- Build files have been written to: /home/erdem/control_ws/build/ros2_control_demo_example_9
+[4.302s] Invoked command in '/home/erdem/control_ws/build/ros2_control_demo_example_9' returned '0': AMENT_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:/opt/ros/humble /usr/bin/cmake /home/erdem/control_ws/src/example_9 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/erdem/control_ws/install/ros2_control_demo_example_9
+[4.303s] Invoking command in '/home/erdem/control_ws/build/ros2_control_demo_example_9': AMENT_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:/opt/ros/humble /usr/bin/cmake --build /home/erdem/control_ws/build/ros2_control_demo_example_9 -- -j4 -l4
+[4.398s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_example_9.dir/hardware/rrbot.cpp.o[0m
+[12.597s] [100%] [32m[1mLinking CXX shared library libros2_control_demo_example_9.so[0m
+[12.944s] [100%] Built target ros2_control_demo_example_9
+[12.961s] Invoked command in '/home/erdem/control_ws/build/ros2_control_demo_example_9' returned '0': AMENT_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:/opt/ros/humble /usr/bin/cmake --build /home/erdem/control_ws/build/ros2_control_demo_example_9 -- -j4 -l4
+[13.000s] Invoking command in '/home/erdem/control_ws/build/ros2_control_demo_example_9': AMENT_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:/opt/ros/humble /usr/bin/cmake --install /home/erdem/control_ws/build/ros2_control_demo_example_9
+[13.009s] -- Install configuration: ""
+[13.009s] -- Execute custom install script
+[13.010s] -- Symlinking: /home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9//ros2_control_demo_example_9.xml
+[13.024s] -- Symlinking: /home/erdem/control_ws/install/ros2_control_demo_example_9/include/ros2_control_demo_example_9/ros2_control_demo_example_9/rrbot.hpp
+[13.037s] -- Symlinking: /home/erdem/control_ws/install/ros2_control_demo_example_9/include/ros2_control_demo_example_9/ros2_control_demo_example_9/visibility_control.h
+[13.052s] -- Symlinking: /home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9/launch/view_robot.launch.py
+[13.066s] -- Symlinking: /home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9/ros2_control/rrbot.ros2_control.xacro
+[13.081s] -- Symlinking: /home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9/urdf/rrbot.urdf.xacro
+[13.097s] -- Symlinking: /home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9/gazebo/rrbot.gazebo.xacro
+[13.111s] -- Symlinking: /home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9/launch/rrbot.launch.py
+[13.125s] -- Symlinking: /home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9/launch/rrbot_gazebo_classic.launch.py
+[13.139s] -- Symlinking: /home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9/launch/test_forward_position_controller.launch.py
+[13.153s] -- Symlinking: /home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9/config/rrbot_controllers.yaml
+[13.168s] -- Symlinking: /home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9/config/rrbot_forward_position_publisher.yaml
+[13.182s] -- Symlinking: /home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9/environment/library_path.sh
+[13.196s] -- Symlinking: /home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9/environment/library_path.dsv
+[13.210s] -- Symlinking: /home/erdem/control_ws/install/ros2_control_demo_example_9/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_example_9
+[13.225s] -- Symlinking: /home/erdem/control_ws/install/ros2_control_demo_example_9/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_example_9
+[13.239s] -- Symlinking: /home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9/environment/ament_prefix_path.sh
+[13.254s] -- Symlinking: /home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9/environment/ament_prefix_path.dsv
+[13.265s] -- Symlinking: /home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9/environment/path.sh
+[13.280s] -- Symlinking: /home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9/environment/path.dsv
+[13.293s] -- Symlinking: /home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9/local_setup.bash
+[13.306s] -- Symlinking: /home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9/local_setup.sh
+[13.322s] -- Symlinking: /home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9/local_setup.zsh
+[13.333s] -- Symlinking: /home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9/local_setup.dsv
+[13.345s] -- Symlinking: /home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9/package.dsv
+[13.355s] -- Symlinking: /home/erdem/control_ws/install/ros2_control_demo_example_9/share/ament_index/resource_index/packages/ros2_control_demo_example_9
+[13.366s] -- Symlinking: /home/erdem/control_ws/install/ros2_control_demo_example_9/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ros2_control_demo_example_9
+[13.379s] -- Symlinking: /home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9/cmake/ament_cmake_export_targets-extras.cmake
+[13.389s] -- Symlinking: /home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.399s] -- Symlinking: /home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9/cmake/ros2_control_demo_example_9Config.cmake
+[13.409s] -- Symlinking: /home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9/cmake/ros2_control_demo_example_9Config-version.cmake
+[13.418s] -- Symlinking: /home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9/package.xml
+[13.428s] -- Installing: /home/erdem/control_ws/install/ros2_control_demo_example_9/lib/libros2_control_demo_example_9.so
+[13.430s] -- Set runtime path of "/home/erdem/control_ws/install/ros2_control_demo_example_9/lib/libros2_control_demo_example_9.so" to ""
+[13.430s] -- Installing: /home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9/cmake/export_ros2_control_demo_example_9Export.cmake
+[13.430s] -- Installing: /home/erdem/control_ws/install/ros2_control_demo_example_9/share/ros2_control_demo_example_9/cmake/export_ros2_control_demo_example_9Export-noconfig.cmake
+[13.435s] Invoked command in '/home/erdem/control_ws/build/ros2_control_demo_example_9' returned '0': AMENT_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/erdem/control_ws/install/ros2_control_demo_description:/opt/ros/humble /usr/bin/cmake --install /home/erdem/control_ws/build/ros2_control_demo_example_9

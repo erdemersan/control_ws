@@ -1,0 +1,1 @@
+/home/erdem/control_ws/src/example_7/bringup/launch/r6bot_controller.launch.py

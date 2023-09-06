@@ -1,0 +1,29 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/erdem/control_ws/install/ros2_control_demo_example_9/include/**",
+        "/home/erdem/control_ws/install/ros2_control_demo_example_8/include/**",
+        "/home/erdem/control_ws/install/ros2_control_demo_example_7/include/**",
+        "/home/erdem/control_ws/install/ros2_control_demo_example_6/include/**",
+        "/home/erdem/control_ws/install/ros2_control_demo_example_5/include/**",
+        "/home/erdem/control_ws/install/ros2_control_demo_example_4/include/**",
+        "/home/erdem/control_ws/install/ros2_control_demo_example_3/include/**",
+        "/home/erdem/control_ws/install/ros2_control_demo_example_2/include/**",
+        "/home/erdem/control_ws/install/ros2_control_demo_example_1/include/**",
+        "/opt/ros/humble/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
